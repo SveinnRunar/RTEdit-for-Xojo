@@ -1,5 +1,5 @@
 # RTEdit-for-Xojo
- standalone class that offers a highly flexible rich text editing experience with HTML support.
+ standalone class that offers a highly flexible rich text editing experience with HTML support. Below is a list of some of the main properties, methods and events.
 <p>Start the control with a pre-loaded document.</p><pre data-language="plain">
 REditor.Document = &quot;&lt;b&gt;Bold Text Here&lt;/b&gt;&quot;
 REditor.Initialize
@@ -53,10 +53,31 @@ Version
 AutoInitialize
 getDocumentHTML
 getDocumentLength
+getDocumentMentions
 getDocumentText
 NewDocument
 RemoveFocus
 SaveColorsAsScheme
-</pre><p></p><h3>Loading the control</h3><pre data-language="plain">
+</pre><h3>Other</h3><pre data-language="plain">
+AddMention
+ClipboardPaste
+Close
+CopySelectionToClipboard
+PrintDocument
+RetrieveValue
+ScrollToTop
+StoreValue
+UpdateMentionValue
+</pre><p></p><h2>Events</h2><p><strong>Some customized events include</strong></p><pre data-language="plain">
+ClipbordPaste
+ContextualMenuItemSelected
+DebugCSSData
+DocumentChanged
+EditorReady
+FocusReceived
+MouseLeftClick
+MouseRightClick
+UserSelectedURL
+</pre><p></p><h3>Initialize the control and it's defined settings</h3><pre data-language="plain">
 Initialize
 </pre><p></p>
