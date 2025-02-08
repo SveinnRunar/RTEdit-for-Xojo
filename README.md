@@ -1,6 +1,6 @@
 # RTEdit-for-Xojo
  standalone class that offers a highly flexible rich text editing experience with HTML support.
-<h1><strong>R</strong>Editor</h1><p>Finally... a modern and lightning fast rich text editor for <strong>Xojo</strong></p><p>Start the control with a pre-loaded document.</p><pre data-language="plain">
+<p>Start the control with a pre-loaded document.</p><pre data-language="plain">
 REditor.Document = &quot;&lt;b&gt;Bold Text Here&lt;/b&gt;&quot;
 REditor.Initialize
 </pre><h2></h2><h2>Properties</h2><h3>Formatting &amp; Toolbar buttons</h3><pre data-language="plain">
