@@ -1,6 +1,6 @@
 # RTEdit-for-Xojo
 A standalone class that provides a highly flexible rich text editing experience with HTML support.
-<p>Built on Quill 2.0.2, RTEdit extends Xojo's capabilities by processing pasted clipboard data according to defined styling settings using a custom markup parser. It offers enhanced event handling and full access to all CSS and JavaScript elements—all within a single class instance with no dependencies.</p>
+<p>Built on Quill 2.0.2 for XOJO users, RTEdit extends its capabilities by processing pasted clipboard data according to defined styling settings using a custom markup parser. It offers enhanced event handling and full access to all CSS and JavaScript elements—all within a single class instance with no dependencies.</p>
 <pre data-language="plain">
 REditor.Document = &quot;&lt;b&gt;Bold Text Here&lt;/b&gt;&quot;
 REditor.Initialize
