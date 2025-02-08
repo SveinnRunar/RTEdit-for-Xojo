@@ -61,6 +61,7 @@ getDocumentText
 NewDocument
 RemoveFocus
 SaveColorsAsScheme
+SelectAll
 </pre><h3>Other</h3><pre data-language="plain">
 AddMention
 ClipboardPaste
