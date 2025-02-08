@@ -73,7 +73,7 @@ ScrollToTop
 StoreValue
 UpdateMentionValue
 </pre><p></p><h2>Events</h2><p><strong>Some customized events include</strong></p><pre data-language="plain">
-ClipbordPaste
+ClipboardPaste
 ContextualMenuItemSelected
 DebugCSSData
 DocumentChanged
