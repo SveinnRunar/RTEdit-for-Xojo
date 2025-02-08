@@ -570,7 +570,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   673
+      Top             =   646
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -601,7 +601,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   618
+      Top             =   591
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -632,38 +632,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   645
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   236
-   End
-   Begin DesktopButton btnAddMention
-      AllowAutoDeactivate=   True
-      Bold            =   False
-      Cancel          =   False
-      Caption         =   "Add mention"
-      Default         =   False
-      Enabled         =   True
-      FontName        =   "System"
-      FontSize        =   0.0
-      FontUnit        =   0
-      Height          =   20
-      Index           =   -2147483648
-      Italic          =   False
-      Left            =   1039
-      LockBottom      =   True
-      LockedInPosition=   False
-      LockLeft        =   False
-      LockRight       =   True
-      LockTop         =   False
-      MacButtonStyle  =   0
-      Scope           =   0
-      TabIndex        =   35
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Tooltip         =   ""
-      Top             =   591
+      Top             =   618
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1926,11 +1895,11 @@ Begin DesktopWindow windowRTEditDemo
       VisualState     =   0
       Width           =   67
    End
-   Begin DesktopButton Button1
+   Begin DesktopButton btnAddMention
       AllowAutoDeactivate=   True
       Bold            =   False
       Cancel          =   False
-      Caption         =   "Button"
+      Caption         =   "Add mention"
       Default         =   False
       Enabled         =   True
       FontName        =   "System"
@@ -1938,24 +1907,25 @@ Begin DesktopWindow windowRTEditDemo
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
-      Left            =   599
-      LockBottom      =   False
+      Left            =   1039
+      LockBottom      =   True
       LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
+      LockLeft        =   False
+      LockRight       =   True
+      LockTop         =   False
       MacButtonStyle  =   0
-      Scope           =   2
-      TabIndex        =   79
+      Scope           =   0
+      TabIndex        =   80
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   650
+      Top             =   674
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   80
+      Width           =   236
    End
 End
 #tag EndDesktopWindow
@@ -1969,9 +1939,8 @@ End
 
 	#tag Event
 		Sub Opening()
-		  // Look at REdit.Opening event to see customization of the Rich Text control
-		  
-		  self.Title = "Reditor v" + REdit.Version
+		  // customize the control (fired before EditorReady event)
+		  self.Title = "RTEdit v" + REdit.Version
 		  
 		  ShowSchemeColors
 		  
@@ -2389,13 +2358,6 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events btnAddMention
-	#tag Event
-		Sub Pressed()
-		  REdit.AddMention("#","This is a mention")
-		End Sub
-	#tag EndEvent
-#tag EndEvents
 #tag Events Redit
 	#tag Event
 		Sub MouseclickRight()
@@ -2722,10 +2684,10 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events Button1
+#tag Events btnAddMention
 	#tag Event
 		Sub Pressed()
-		  tDebugCSS.Text = Redit.getDocumentText(true, false)
+		  REdit.AddMention("#","This is a mention")
 		End Sub
 	#tag EndEvent
 #tag EndEvents
