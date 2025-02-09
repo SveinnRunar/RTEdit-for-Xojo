@@ -232,7 +232,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   122
+      Top             =   138
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -261,7 +261,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   122
+      Top             =   138
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -340,7 +340,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   18
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   150
+      Top             =   166
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -371,7 +371,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   148
+      Top             =   164
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -396,7 +396,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   20
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   170
+      Top             =   186
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -427,7 +427,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   168
+      Top             =   184
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -452,7 +452,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   22
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   330
+      Top             =   346
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -483,7 +483,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   328
+      Top             =   344
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -508,7 +508,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   26
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   370
+      Top             =   386
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -539,7 +539,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   368
+      Top             =   384
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -667,6 +667,7 @@ Begin DesktopWindow windowRTEditDemo
       AutoInitialize  =   True
       Backdrop        =   0
       BackgroundColor =   &cFFFFFF
+      bEnableRightClicking=   True
       BlockquoteIndentation=   0
       bPauseDocumentEvents=   False
       CanUndo         =   True
@@ -774,7 +775,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   38
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   350
+      Top             =   366
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -805,7 +806,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   348
+      Top             =   364
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -836,7 +837,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   392
+      Top             =   408
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -862,7 +863,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   41
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   250
+      Top             =   266
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -894,7 +895,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   248
+      Top             =   264
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -919,7 +920,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   43
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   210
+      Top             =   226
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -950,7 +951,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   208
+      Top             =   224
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1034,7 +1035,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   431
+      Top             =   439
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1064,7 +1065,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   431
+      Top             =   439
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1094,7 +1095,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   431
+      Top             =   439
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1124,7 +1125,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Headers"
-      Top             =   451
+      Top             =   459
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1154,7 +1155,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow URL"
-      Top             =   451
+      Top             =   459
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1184,7 +1185,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow bulletins (List and Numericals)"
-      Top             =   451
+      Top             =   459
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1214,7 +1215,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable Image upload"
-      Top             =   471
+      Top             =   479
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1274,7 +1275,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable Image upload"
-      Top             =   471
+      Top             =   479
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1301,7 +1302,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   56
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   290
+      Top             =   306
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -1332,7 +1333,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   288
+      Top             =   304
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1357,7 +1358,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   58
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   310
+      Top             =   326
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -1388,7 +1389,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   308
+      Top             =   324
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1416,7 +1417,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable subscript"
-      Top             =   491
+      Top             =   499
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1446,7 +1447,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable superscript"
-      Top             =   491
+      Top             =   499
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1476,7 +1477,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable code"
-      Top             =   471
+      Top             =   479
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1503,7 +1504,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   65
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   230
+      Top             =   246
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -1534,7 +1535,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   228
+      Top             =   244
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1559,7 +1560,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   67
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   270
+      Top             =   286
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -1590,7 +1591,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   268
+      Top             =   284
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1647,7 +1648,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   70
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   190
+      Top             =   206
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -1679,7 +1680,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   188
+      Top             =   204
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1707,7 +1708,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow font selection"
-      Top             =   491
+      Top             =   499
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1737,7 +1738,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Clean code"
-      Top             =   511
+      Top             =   519
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1767,7 +1768,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable Indentation"
-      Top             =   511
+      Top             =   519
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1797,7 +1798,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable bulletin list"
-      Top             =   511
+      Top             =   519
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1827,7 +1828,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow strike through"
-      Top             =   531
+      Top             =   539
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1857,12 +1858,12 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable text color selection"
-      Top             =   531
+      Top             =   539
       Transparent     =   False
       Underline       =   False
       Value           =   False
       Visible         =   True
-      VisualState     =   0
+      VisualState     =   1
       Width           =   67
    End
    Begin DesktopCheckBox chkTextBackgroundColor
@@ -1887,7 +1888,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable background color for text"
-      Top             =   531
+      Top             =   539
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1926,6 +1927,36 @@ Begin DesktopWindow windowRTEditDemo
       Underline       =   False
       Visible         =   True
       Width           =   236
+   End
+   Begin DesktopCheckBox chkEnableRightClick
+      AllowAutoDeactivate=   True
+      Bold            =   False
+      Caption         =   "Enable Right click"
+      Enabled         =   True
+      FontName        =   "System"
+      FontSize        =   0.0
+      FontUnit        =   0
+      Height          =   20
+      Index           =   -2147483648
+      Italic          =   False
+      Left            =   1029
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   False
+      LockRight       =   True
+      LockTop         =   True
+      Scope           =   0
+      TabIndex        =   81
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   110
+      Transparent     =   False
+      Underline       =   False
+      Value           =   False
+      Visible         =   True
+      VisualState     =   1
+      Width           =   184
    End
 End
 #tag EndDesktopWindow
@@ -2055,10 +2086,10 @@ End
 		  Redit.AllowBold = True
 		  Redit.AllowBulletins = True
 		  Redit.AllowCode = False
-		  Redit.AllowHeaders = False
+		  Redit.AllowHeaders = True
 		  Redit.AllowIndentation = False
 		  Redit.AllowItalic = True
-		  Redit.AllowImage = True
+		  Redit.AllowImage = False
 		  Redit.AllowLinks = True
 		  Redit.AllowList = True
 		  Redit.AllowQuote = True
@@ -2067,7 +2098,7 @@ End
 		  Redit.AllowSuperscript = False
 		  Redit.AllowTextBackgroundColor = False
 		  Redit.AllowUnderline = True
-		  Redit.AllowTextColor = False
+		  Redit.AllowTextColor = True
 		  
 		  // Keyboard Binding Styles is true by default, it enables Command+1/2/3/4 for styling
 		  Redit.KeyboardBindStyles = True
@@ -2385,20 +2416,17 @@ End
 		  m.Tag = "PASTE" 
 		  popMenu.AddMenu(m)
 		  
-		  // Vitals
-		  var mVitals as New DesktopMenuItem("Lífsmörk")
-		  popmenu.AddMenu(mVitals)
+		  // Custom menu
+		  m = new DesktopMenuItem("Custom contextual item #1")
+		  popmenu.AddMenu(m)
 		  
-		  // EHR
-		  var mEHR as new DesktopMenuItem("Sjúkrasaga")
-		  popMenu.AddMenu(mEHR)
+		  m =  new DesktopMenuItem("Custom contextual item #2")
+		  popMenu.AddMenu(m)
 		  
-		  // Lab
-		  mEHR = new DesktopMenuItem("Blóðrannsóknir")
-		  popmenu.AddMenu(mEHR)
+		  m = new DesktopMenuItem("Custom contextual item #3")
+		  popmenu.AddMenu(m)
 		  
-		  // Own texts
-		  m = new DesktopMenuItem("Eigin flýtitextar...")
+		  m = new DesktopMenuItem("Custom contextual item #4")
 		  m.tag = "ShowTexts"
 		  popMenu.AddMenu(m)
 		  
@@ -2417,10 +2445,9 @@ End
 		      var s as string
 		      s = c.Text
 		      redit.ClipboardPaste(s)
-		      //Redit.ClipboardPasteSelection("svenni")
+		      //Redit.ClipboardPasteSelection("Text to be pasted over the selected text")
 		      
 		    elseif mSelected.Tag <> nil then 
-		      // EHR variables
 		      if mSelected.Tag.StringValue.Left(1) = "[" then
 		        var sTag as string = mSelected.tag.StringValue
 		        sTag = sTag.ReplaceAll("[","")
@@ -2688,6 +2715,13 @@ End
 	#tag Event
 		Sub Pressed()
 		  REdit.AddMention("#","This is a mention")
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events chkEnableRightClick
+	#tag Event
+		Sub ValueChanged()
+		  Redit.EnableRightClick = me.Value
 		End Sub
 	#tag EndEvent
 #tag EndEvents
