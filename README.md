@@ -86,4 +86,13 @@ MouseRightClick
 UserSelectedURL
 </pre><p></p><h3>Initialize the control and it's defined settings</h3><pre data-language="plain">
 Initialize
-</pre><p></p>
+</pre>
+<p></p>
+Acknowledgement and license
+This control is free to use, but requires proper acknowledgment in any derived work or application. You must mention the original author (you) and provide a link to this repository in your documentation or credits.
+A part of this control is based on Quill 2.0+  https://github.com/slab/quill/blob/main/LICENSE
+
+**Terms**
+Free to Use: You are allowed to use this control in your projects without charge.
+Acknowledgment Required: You must provide proper attribution in any work that uses this control. Attribution must include a link to this repository.
+No Decryption or Modification: You are not allowed to decrypt, reverse-engineer, or modify the control in any way.
