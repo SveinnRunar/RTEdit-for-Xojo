@@ -5,6 +5,7 @@ A standalone class that provides a highly flexible rich text editing experience 
 REditor.Document = &quot;&lt;b&gt;Bold Text Here&lt;/b&gt;&quot;
 REditor.Initialize
 </pre>
+<p>Introduction & showcase video https://www.youtube.com/watch?v=j4tDSoc2MWk</p>
 <p>Below is a list of its main properties, methods, and events.</p>
 <h2></h2><h2>Properties</h2><h3>Formatting &amp; Toolbar buttons</h3><pre data-language="plain">
 AllowAlignment
