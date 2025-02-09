@@ -88,7 +88,7 @@ UserSelectedURL
 Initialize
 </pre>
 <p>Acknowledgement and license</p>
-This control is free to use, but requires proper acknowledgment in any derived work or application. You must mention the original author (you) and provide a link to this repository in your documentation or credits.
+This control is free to use, but requires proper acknowledgment in any derived work or application. You must mention the original author and provide a link to this repository in your documentation or credits.
 A part of this control is based on Quill 2.0+  https://github.com/slab/quill/blob/main/LICENSE
 <p></p>
 <p>Terms</p>
