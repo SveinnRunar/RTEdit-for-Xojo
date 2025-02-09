@@ -43,6 +43,7 @@ ColorToolbar
 ColorToolbarHover
 </pre><h3>Other</h3><pre data-language="plain">
 Document
+EnableRightClick
 ColorScheme
 EditMode
 FontSize
