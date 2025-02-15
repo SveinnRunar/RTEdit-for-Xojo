@@ -1,6 +1,22 @@
 #tag Class
 Protected Class App
 Inherits DesktopApplication
+	#tag Note, Name = RTEdit
+		RTEdit by Sveinn Runar Sigurdsson
+		Acknowledgement and license
+		
+		This control is free to use, but requires proper acknowledgment in any derived work or application. 
+		You must mention the original author and provide a link to this repository in your documentation or credits. 
+		A part of this control is based on Quill 2.0+ https://github.com/slab/quill/blob/main/LICENSE
+		
+		Terms
+		Free to Use: You are allowed to use this control in your projects without charge. 
+		Acknowledgment Required: You must provide proper attribution in any work that uses this control. 
+		No Decryption or Modification: You are not allowed to decrypt, reverse-engineer, or modify the control in any way.
+		
+	#tag EndNote
+
+
 	#tag Constant, Name = kEditClear, Type = String, Dynamic = False, Default = \"&Delete", Scope = Public
 		#Tag Instance, Platform = Windows, Language = Default, Definition  = \"&Delete"
 		#Tag Instance, Platform = Linux, Language = Default, Definition  = \"&Delete"

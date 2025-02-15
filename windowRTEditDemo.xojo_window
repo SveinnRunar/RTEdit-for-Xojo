@@ -315,7 +315,6 @@ Begin DesktopWindow windowRTEditDemo
       Width           =   997
    End
    Begin DesktopColorPicker cPick
-      Enabled         =   True
       HasAlpha        =   True
       Index           =   -2147483648
       LockedInPosition=   False
@@ -1987,6 +1986,14 @@ End
 	#tag MenuHandler
 		Function FileQuit() As Boolean Handles FileQuit.Action
 		  Quit
+		End Function
+	#tag EndMenuHandler
+
+	#tag MenuHandler
+		Function mnuAbout() As Boolean Handles mnuAbout.Action
+		  messagebox "RTEdit v" + RTEdit.Version
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 

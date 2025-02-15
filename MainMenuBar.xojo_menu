@@ -7,6 +7,14 @@ Begin Menu MainMenuBar
       AutoEnabled = True
       AutoEnable = True
       Visible = True
+      Begin DesktopMenuItem mnuAbout
+         SpecialMenu = 0
+         Index = -2147483648
+         Text = "About RTEdit"
+         AutoEnabled = True
+         AutoEnable = True
+         Visible = True
+      End
       Begin DesktopMenuItem FileQuit
          SpecialMenu = 0
          Index = -2147483648
