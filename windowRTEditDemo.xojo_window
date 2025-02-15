@@ -315,6 +315,7 @@ Begin DesktopWindow windowRTEditDemo
       Width           =   997
    End
    Begin DesktopColorPicker cPick
+      Enabled         =   True
       HasAlpha        =   True
       Index           =   -2147483648
       LockedInPosition=   False
@@ -638,7 +639,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   236
    End
-   Begin RTEdit Redit
+   Begin RTEdit REdit
       AllowAlignment  =   True
       AllowAutoDeactivate=   True
       AllowBold       =   True
@@ -662,6 +663,7 @@ Begin DesktopWindow windowRTEditDemo
       AllowTextBackgroundColor=   True
       AllowTextColor  =   True
       AllowTextDirection=   False
+      AllowTextDragDrop=   True
       AllowUnderline  =   True
       AutoFormatLinks =   True
       AutoInitialize  =   True
@@ -692,6 +694,7 @@ Begin DesktopWindow windowRTEditDemo
       DocumentTitle   =   ""
       EditMode        =   False
       Enabled         =   True
+      EnableRightClick=   False
       FontSize        =   16
       HasBackgroundColor=   False
       Height          =   653
@@ -1939,7 +1942,7 @@ Begin DesktopWindow windowRTEditDemo
       Height          =   20
       Index           =   -2147483648
       Italic          =   False
-      Left            =   1029
+      Left            =   1030
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   False
@@ -1956,7 +1959,7 @@ Begin DesktopWindow windowRTEditDemo
       Value           =   False
       Visible         =   True
       VisualState     =   1
-      Width           =   184
+      Width           =   131
    End
 End
 #tag EndDesktopWindow
@@ -2061,10 +2064,10 @@ End
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		Sub InitializeRedit()
+		Sub Initialize()
 		  
-		  // Initialize Rich Text control, called from Redit.Opening event
-		  // -----------------------------------------------------------
+		  // Initialize Rich Text control, called from Redit.Opening event (processed before EditorReady event
+		  // -------------------------------------------------------------------------------------------------
 		  
 		  // Apply basic theme
 		  if segThemes.SelectedSegmentIndex = 0 then Redit.Theme = RTEdit.Themes.Bubble else Redit.Theme = RTEdit.Themes.Snow
@@ -2099,6 +2102,9 @@ End
 		  Redit.AllowTextBackgroundColor = False
 		  Redit.AllowUnderline = True
 		  Redit.AllowTextColor = True
+		  
+		  // Allow text to be dragged & dropped into the control, either from within or outside
+		  Redit.AllowTextDragDrop = True // True by default
 		  
 		  // Keyboard Binding Styles is true by default, it enables Command+1/2/3/4 for styling
 		  Redit.KeyboardBindStyles = True
@@ -2233,6 +2239,8 @@ End
 	#tag Event
 		Sub ValueChanged()
 		  REdit.Toolbar = me.Value
+		  chkToolbarBorder.Enabled = me.Value
+		  chkAlignToolbarCenter.Enabled = me.Value
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2389,7 +2397,7 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events Redit
+#tag Events REdit
 	#tag Event
 		Sub MouseclickRight()
 		  // Create the menu structure for our REdit popupmenu
@@ -2475,7 +2483,7 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub Opening()
-		  InitializeRedit
+		  Initialize
 		  
 		End Sub
 	#tag EndEvent
