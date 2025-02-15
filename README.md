@@ -25,8 +25,8 @@ AllowSubscript
 AllowSuperscript
 AllowTextBackgroundColor
 AllowTextColor
-AllowTextDragDrop
 AllowTextDirection
+AllowTextDragDrop
 AllowUnderline
 </pre><p></p><h3>Colors</h3><pre data-language="plain">
 ColorBackground
