@@ -2050,8 +2050,6 @@ End
 		  
 		  // Re-Initialize the control
 		  Redit.Initialize
-		  
-		  HelloWorld
 		End Sub
 	#tag EndMethod
 
@@ -2086,7 +2084,7 @@ End
 		  Redit.EditMode = chkEditMode.Value
 		  
 		  // Let's define a placeholder
-		  Redit.PlaceHolder = "Whoopa, start typing here to create a new document..."
+		  Redit.PlaceHolder = "Start typing here to create a new document..."
 		  
 		  // The following settings only apply to theme 'snow'
 		  SetSnowProperties
@@ -2497,7 +2495,6 @@ End
 	#tag Event
 		Sub EditorReady()
 		  // This event is fired after the editor has fully initialized
-		  
 		  
 		End Sub
 	#tag EndEvent
