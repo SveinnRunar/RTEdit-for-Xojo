@@ -57,10 +57,12 @@ UserGuide
 Version
 </pre><p></p><h2>Methods</h2><p><strong>Getting document data</strong></p><pre data-language="plain">
 AutoInitialize
+ExportDocumentAsJSON
 getDocumentHTML
 getDocumentLength
 getDocumentMentions
 getDocumentText
+ImportDocumentFromJSON
 NewDocument
 RemoveFocus
 SaveColorsAsScheme
@@ -81,6 +83,7 @@ ContextualMenuItemSelected
 DebugCSSData
 DocumentChanged
 EditorReady
+ErrorMessage
 FocusReceived
 MouseLeftClick
 MouseRightClick
