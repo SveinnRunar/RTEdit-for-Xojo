@@ -97,7 +97,7 @@ Begin DesktopWindow windowRTEditDemo
       Height          =   20
       Index           =   -2147483648
       Italic          =   False
-      Left            =   1039
+      Left            =   1038
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   False
@@ -109,7 +109,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   702
+      Top             =   683
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -140,7 +140,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   731
+      Top             =   708
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -206,7 +206,7 @@ Begin DesktopWindow windowRTEditDemo
       VisualState     =   1
       Width           =   110
    End
-   Begin DesktopLabel lColors
+   Begin DesktopLabel lblColors
       AllowAutoDeactivate=   True
       Bold            =   True
       Enabled         =   True
@@ -345,7 +345,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lcBackground
+   Begin DesktopLabel lblBackground
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -401,7 +401,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lcBackgroundSelected
+   Begin DesktopLabel lblBackgroundSelected
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -457,7 +457,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lcText
+   Begin DesktopLabel lblText
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -513,7 +513,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lCTextSelected
+   Begin DesktopLabel lblTextSelected
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -570,7 +570,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   646
+      Top             =   658
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -601,7 +601,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   591
+      Top             =   608
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -620,7 +620,7 @@ Begin DesktopWindow windowRTEditDemo
       Height          =   20
       Index           =   -2147483648
       Italic          =   False
-      Left            =   1039
+      Left            =   1038
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   False
@@ -632,7 +632,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   618
+      Top             =   633
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -670,8 +670,6 @@ Begin DesktopWindow windowRTEditDemo
       BackgroundColor =   &cFFFFFF
       bEnableRightClicking=   True
       BlockquoteIndentation=   0
-      bPauseDocumentEvents=   False
-      CanUndo         =   True
       ColorBackground =   &cFFFFFF00
       ColorBackgroundSelection=   &c00000000
       ColorLink       =   &cFFFFFF00
@@ -709,6 +707,7 @@ Begin DesktopWindow windowRTEditDemo
       MentionsEnabled =   False
       MentionTextBold =   False
       MentionTextItalic=   False
+      pauseDocumentEvents=   False
       PlaceHolder     =   "Type here to create a new document..."
       PreferenceName  =   ""
       QuoteTextBold   =   False
@@ -740,7 +739,7 @@ Begin DesktopWindow windowRTEditDemo
       Height          =   20
       Index           =   -2147483648
       Italic          =   False
-      Left            =   1039
+      Left            =   1038
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   False
@@ -752,7 +751,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   564
+      Top             =   583
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -782,7 +781,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lcTextItalic
+   Begin DesktopLabel lblTextItalic
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -870,7 +869,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lcMentionBackground
+   Begin DesktopLabel lblMentionBackground
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -927,7 +926,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lCLinks
+   Begin DesktopLabel lblLinks
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -959,7 +958,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   189
    End
-   Begin DesktopLabel lThemes
+   Begin DesktopLabel lblThemes
       AllowAutoDeactivate=   True
       Bold            =   True
       Enabled         =   True
@@ -1037,7 +1036,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   439
+      Top             =   431
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1067,7 +1066,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   439
+      Top             =   431
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1097,7 +1096,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   439
+      Top             =   431
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1127,7 +1126,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Headers"
-      Top             =   459
+      Top             =   451
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1157,7 +1156,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow URL"
-      Top             =   459
+      Top             =   451
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1187,7 +1186,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow bulletins (List and Numericals)"
-      Top             =   459
+      Top             =   451
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1217,7 +1216,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable Image upload"
-      Top             =   479
+      Top             =   471
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1277,7 +1276,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable Image upload"
-      Top             =   479
+      Top             =   471
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1309,7 +1308,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lcScrollbar
+   Begin DesktopLabel lblScrollbar
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -1365,7 +1364,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lcScrollbarHover
+   Begin DesktopLabel lblScrollbarHover
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -1419,7 +1418,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable subscript"
-      Top             =   499
+      Top             =   491
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1449,7 +1448,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable superscript"
-      Top             =   499
+      Top             =   491
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1479,7 +1478,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable code"
-      Top             =   479
+      Top             =   471
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1511,7 +1510,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lCMention
+   Begin DesktopLabel lblMention
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -1567,7 +1566,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lcPlaceholder
+   Begin DesktopLabel lblPlaceholder
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -1624,7 +1623,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   760
+      Top             =   733
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1655,7 +1654,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   16
    End
-   Begin DesktopLabel lcBlockQuote
+   Begin DesktopLabel lblBlockQuote
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -1710,7 +1709,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow font selection"
-      Top             =   499
+      Top             =   491
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1740,7 +1739,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Clean code"
-      Top             =   519
+      Top             =   511
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1770,7 +1769,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable Indentation"
-      Top             =   519
+      Top             =   511
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1800,7 +1799,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable bulletin list"
-      Top             =   519
+      Top             =   511
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1830,7 +1829,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow strike through"
-      Top             =   539
+      Top             =   531
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1860,7 +1859,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable text color selection"
-      Top             =   539
+      Top             =   531
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1890,7 +1889,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable background color for text"
-      Top             =   539
+      Top             =   531
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1898,11 +1897,11 @@ Begin DesktopWindow windowRTEditDemo
       VisualState     =   0
       Width           =   67
    End
-   Begin DesktopButton btnAddMention
+   Begin DesktopButton btnExportDocumentAsJSON
       AllowAutoDeactivate=   True
       Bold            =   False
       Cancel          =   False
-      Caption         =   "Add mention"
+      Caption         =   "Export as JSON"
       Default         =   False
       Enabled         =   True
       FontName        =   "System"
@@ -1912,7 +1911,7 @@ Begin DesktopWindow windowRTEditDemo
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   1039
+      Left            =   1038
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   False
@@ -1924,11 +1923,11 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   674
+      Top             =   758
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   236
+      Width           =   115
    End
    Begin DesktopCheckBox chkEnableRightClick
       AllowAutoDeactivate=   True
@@ -1959,6 +1958,68 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       VisualState     =   1
       Width           =   131
+   End
+   Begin DesktopButton btnExportDocumentAsJSON1
+      AllowAutoDeactivate=   True
+      Bold            =   False
+      Cancel          =   False
+      Caption         =   "Import JSON"
+      Default         =   False
+      Enabled         =   True
+      FontName        =   "System"
+      FontSize        =   0.0
+      FontUnit        =   0
+      Height          =   20
+      Index           =   -2147483648
+      Italic          =   False
+      Left            =   1160
+      LockBottom      =   True
+      LockedInPosition=   False
+      LockLeft        =   False
+      LockRight       =   True
+      LockTop         =   False
+      MacButtonStyle  =   0
+      Scope           =   0
+      TabIndex        =   82
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   758
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   115
+   End
+   Begin DesktopButton btnApplyStyling
+      AllowAutoDeactivate=   True
+      Bold            =   False
+      Cancel          =   False
+      Caption         =   "Apply styling changes"
+      Default         =   False
+      Enabled         =   False
+      FontName        =   "System"
+      FontSize        =   0.0
+      FontUnit        =   0
+      Height          =   22
+      Index           =   -2147483648
+      Italic          =   False
+      Left            =   1038
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      MacButtonStyle  =   0
+      Scope           =   0
+      TabIndex        =   83
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   557
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   236
    End
 End
 #tag EndDesktopWindow
@@ -2033,6 +2094,8 @@ End
 
 	#tag Method, Flags = &h0
 		Sub ChangeTheme(ThemeID as integer)
+		  if blockControlUpdates then exit
+		  
 		  // Bubble
 		  if ThemeID = 0 then 
 		    Redit.Theme = RTEdit.Themes.Bubble
@@ -2041,7 +2104,7 @@ End
 		    // Snow
 		  else 
 		    Redit.Theme = RTEdit.Themes.Snow
-		    EnableSnowProperties(True)
+		    EnableSnowProperties
 		    SetSnowProperties
 		    
 		  end if
@@ -2054,7 +2117,7 @@ End
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		Sub EnableSnowProperties(Enable as Boolean)
+		Sub EnableSnowProperties(Optional Enable As Boolean = true)
 		  chkAlignToolbarCenter.Enabled = Enable
 		  chkToolbar.Enabled = Enable
 		  chkToolbarBorder.Enabled = Enable
@@ -2147,7 +2210,7 @@ End
 		  Redit.VariablesPercent = Array("TSH","T4","B12","D-Vitamin","ESR","LEU","Krea","Na","K","Ca","P","Crp")
 		  
 		  // Add some # variables
-		  Redit.VariablesHash = Array("Almennar ráðleggingar", "Paracetamól 1g við hita", "Endurmat eftir þörfum","Doxylin 100mg, 2 töflur fyrsta daginn síðan 1 tafla á dag","Doxylin 1 tafla 2x á dag í 2 vikur", "Azithromycin 500mg 1 tafla 1x á dag í 3 daga","Lífsmörk á 4 klst fresti","Lífsmörk 1x á vakt", "Lífsmörk á 8 klst fresti", "Blóðræktun ef hiti > 38.5°")
+		  Redit.VariablesHash = Array("General advice", "Paracetamol 1g for fever", "Visit again if symptoms worsen","Doxylin 100mg, 2 tablets the first day, then one a day","Doxylin 1 tablet 2x a day for 2 weeks", "Azithromycin 500mg 1 tablet 1x a day for 3 days","Vitals every 4 hours","Vitals once per shift", "Vitals every 8 hours", "Blood culturing if fever > 38.5°")
 		  
 		  // Add some $ variables
 		  Redit.VariablesDollar = Array("SaO2","T","P","Bp","Kg","RR")
@@ -2221,6 +2284,15 @@ End
 		End Sub
 	#tag EndMethod
 
+
+	#tag Property, Flags = &h0
+		#tag Note
+			// Only used in the demo, set to True when importing a JSON document, the demo interface is updated to reflect the settings
+			// in the JSON document. We don't want each change to trigger a live update to our control, so we use this boolean to block
+			// updates.
+		#tag EndNote
+		blockControlUpdates As Boolean = False
+	#tag EndProperty
 
 	#tag Property, Flags = &h0
 		SelectedColorElement As DesktopRectangle
@@ -2385,11 +2457,11 @@ End
 	#tag Event
 		Sub Pressed()
 		  // Easily store tags and data within the editor instance
-		  REdit.StoreValue("FileOnDisk","mydatafile.txt")
-		  REdit.StoreValue("FileID",1849)
-		  REdit.StoreValue("Author","Sveinn Runar")
+		  REdit.StoreTag("FileOnDisk","mydatafile.txt")
+		  REdit.StoreTag("FileID",1849)
+		  REdit.StoreTag("Author","Sveinn Runar")
 		  
-		  messagebox REdit.RetrieveValue("FileOnDisk").StringValue + " - " + REdit.RetrieveValue("FileID").StringValue + " - " + REdit.RetrieveValue("Author")
+		  messagebox REdit.RetrieveTag("FileOnDisk").StringValue + " - " + REdit.RetrieveTag("FileID").StringValue + " - " + REdit.RetrieveTag("Author")
 		  
 		  
 		End Sub
@@ -2503,6 +2575,11 @@ End
 		  tDebugCSS.Text = DateTime.Now.ToString + " Clipboard content pasted into document" + EndOfLine + tDebugCSS.Text
 		End Sub
 	#tag EndEvent
+	#tag Event
+		Sub ErrorMessage(Error As String)
+		  messagebox Error
+		End Sub
+	#tag EndEvent
 #tag EndEvents
 #tag Events btnNewDocument
 	#tag Event
@@ -2521,7 +2598,7 @@ End
 #tag Events btnSaveColorsAsScheme
 	#tag Event
 		Sub Pressed()
-		  tDebugCSS.Text = Redit.SaveColorsAsScheme
+		  tDebugCSS.Text = Redit.SaveColorsAsScheme.ToString
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2550,42 +2627,49 @@ End
 #tag Events chkBold
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True 
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkItalic
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events chkUnderline
+	#tag Event
+		Sub ValueChanged()
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkHeadings
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkLinks
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkBulletin
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkImage
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2599,7 +2683,7 @@ End
 #tag Events chkQuote
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2620,21 +2704,21 @@ End
 #tag Events chkSubscript
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkSuperscript
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkCode
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2677,56 +2761,57 @@ End
 #tag Events chkFont
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkClean
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkIndentation
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkList
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkStrike
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkTextColor
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events chkTextBackgroundColor
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events btnAddMention
+#tag Events btnExportDocumentAsJSON
 	#tag Event
 		Sub Pressed()
-		  REdit.AddMention("#","This is a mention")
+		  tDebugCSS.Text = REdit.ExportDocumentAsJSON(true, true, true, true, true, true)
+		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2734,6 +2819,55 @@ End
 	#tag Event
 		Sub ValueChanged()
 		  Redit.EnableRightClick = me.Value
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events btnExportDocumentAsJSON1
+	#tag Event
+		Sub Pressed()
+		  REdit.ImportDocumentFromJSON(tDebugCSS.Text, true, true, true, true, true, true)
+		  
+		  blockControlUpdates = true
+		  
+		  // Show the scheme colors
+		  ShowSchemeColors
+		  
+		  // Load the properties 
+		  chkBold.Value = REdit.AllowBold
+		  chkBulletin.Value = REdit.AllowBulletins
+		  chkClean.Value = REdit.AllowCleanFormatting
+		  chkCode.Value = REdit.AllowCode
+		  chkEnableRightClick.Value = REdit.EnableRightClick
+		  chkFont.Value = REdit.AllowFontSelection
+		  chkHeadings.Value = REdit.AllowHeaders
+		  chkImage.Value = REdit.AllowImage
+		  chkIndentation.Value = REdit.AllowIndentation
+		  chkItalic.Value = REdit.AllowItalic
+		  chkLinks.Value = REdit.AllowLinks
+		  chkList.Value = REdit.AllowList
+		  chkQuote.Value = REdit.AllowQuote
+		  chkStrike.Value = REdit.AllowStrikeThrough
+		  chkSubscript.Value = REdit.AllowSubscript
+		  chkSuperscript.Value = REdit.AllowSuperscript
+		  chkUnderline.Value = REdit.AllowUnderline
+		  
+		  // Toolbar
+		  chkToolbar.Value = REdit.Toolbar
+		  chkToolbarBorder.Value = REdit.ToolbarBorder
+		  
+		  // Keyboard binding / Editmode
+		  chkKeyboardBinding.Value = REdit.KeyboardBindStyles
+		  chkEditMode.Value = REdit.EditMode
+		  
+		  blockControlUpdates = false
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events btnApplyStyling
+	#tag Event
+		Sub Pressed()
+		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  me.Enabled = False
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2969,6 +3103,14 @@ End
 		Name="MenuBarVisible"
 		Visible=true
 		Group="Deprecated"
+		InitialValue="False"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="blockControlUpdates"
+		Visible=false
+		Group="Behavior"
 		InitialValue="False"
 		Type="Boolean"
 		EditorType=""
