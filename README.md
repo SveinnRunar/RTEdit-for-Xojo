@@ -102,6 +102,7 @@ A part of this control is based on Quill 2.0+  https://github.com/slab/quill/blo
 <p>For demonstration purposes in the ChatBot demo, we useGarry Pettet's AIKit which is maintained here https://github.com/gkjpettet/AIKit</p>
 <p></p>
 <p>Terms</p>
+<p></p>
 Free to Use: You are allowed to use this control in your projects without charge.
 Acknowledgment Required: You must provide proper attribution in any work that uses this control. 
 No Decryption or Modification: You are not allowed to decrypt, reverse-engineer, or modify the control in any way.
