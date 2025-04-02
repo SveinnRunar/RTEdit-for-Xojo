@@ -28,12 +28,28 @@ AllowTextColor
 AllowTextDirection
 AllowTextDragDrop
 AllowUnderline
+AutoFormatLinks
+AutoInitialize
+BlockQuoteIndentation
+KeyboardBindStyles
+MentionsEnabled
+MentionTextBold
+MentionTextItalic
+PreferenceName
+QuoteTextBold
+QuoteTextItalic  
+Theme
 </pre><p></p><h3>Colors</h3><pre data-language="plain">
 ColorBackground
 ColorBackgroundSelection
+ColorBlockQuoteLine
 Colorlink
 ColorMention
 ColorMentionBackground
+ColorMentionPopupBackground
+ColorMentionPopupBackgroundSelected
+ColorMentionPopupText
+ColorMentionPopupTextHover
 ColorPlaceholder
 ColorQuote
 ColorScrollbar
@@ -45,6 +61,7 @@ ColorToolbar
 ColorToolbarHover
 </pre><h3>Other</h3><pre data-language="plain">
 Document
+DocumentTitle
 EnableRightClick
 ColorScheme
 EditMode
@@ -56,7 +73,6 @@ ToolbarBackground
 UserGuide
 Version
 </pre><p></p><h2>Methods</h2><p><strong>Getting document data</strong></p><pre data-language="plain">
-AutoInitialize
 ExportDocumentAsJSON
 getDocumentHTML
 getDocumentLength
@@ -68,17 +84,31 @@ RemoveFocus
 SaveColorsAsScheme
 SelectAll
 </pre><h3>Other</h3><pre data-language="plain">
+AddCustomCSS
+AddCustomProperty
 AddMention
+ClipboardCopy
 ClipboardPaste
 Close
+ColorHexValue
 CopySelectionToClipboard
+EnableDragAndDrop
+GetCSS
+LoadTag
 PrintDocument
 RetrieveValue
+SaveTag
+ScrollToBottom
 ScrollToTop
+SelectAll
+SetColors
+SetCustomCSS
+SetEditorFocus
 StoreValue
 UpdateMentionValue
 </pre><p></p><h2>Events</h2><p><strong>Some customized events include</strong></p><pre data-language="plain">
 ClipboardPaste
+Closing
 ContextualMenuItemSelected
 DebugCSSData
 DocumentChanged
@@ -87,6 +117,7 @@ ErrorMessage
 FocusReceived
 MouseLeftClick
 MouseRightClick
+Opening
 UserSelectedURL
 </pre><p></p><h3>Initialize the control and it's defined settings</h3><pre data-language="plain">
 Initialize
