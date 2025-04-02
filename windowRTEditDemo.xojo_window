@@ -15,7 +15,7 @@ Begin DesktopWindow windowRTEditDemo
    MacProcID       =   0
    MaximumHeight   =   32000
    MaximumWidth    =   32000
-   MenuBar         =   2034956287
+   MenuBar         =   1563234303
    MenuBarVisible  =   False
    MinimumHeight   =   800
    MinimumWidth    =   1296
@@ -321,7 +321,7 @@ Begin DesktopWindow windowRTEditDemo
       Scope           =   0
       TabPanelIndex   =   0
    End
-   Begin DesktopRectangle rCBackground
+   Begin DesktopRectangle rcBackground
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -377,7 +377,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   191
    End
-   Begin DesktopRectangle rCBackgroundSelected
+   Begin DesktopRectangle rcBackgroundSelected
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -433,7 +433,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   189
    End
-   Begin DesktopRectangle rCText
+   Begin DesktopRectangle rcText
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -489,7 +489,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   189
    End
-   Begin DesktopRectangle rCTextSelected
+   Begin DesktopRectangle rcTextSelected
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -580,7 +580,7 @@ Begin DesktopWindow windowRTEditDemo
       AllowAutoDeactivate=   True
       Bold            =   False
       Cancel          =   False
-      Caption         =   "Store and load tags"
+      Caption         =   "Save and load tags"
       Default         =   False
       Enabled         =   True
       FontName        =   "System"
@@ -672,9 +672,14 @@ Begin DesktopWindow windowRTEditDemo
       BlockquoteIndentation=   0
       ColorBackground =   &cFFFFFF00
       ColorBackgroundSelection=   &c00000000
+      ColorBlockQuoteLine=   &cFFFFFF00
       ColorLink       =   &cFFFFFF00
       ColorMention    =   &c00000000
       ColorMentionBackground=   &c00000000
+      ColorMentionPopupBackground=   &cFFFFFF00
+      ColorMentionPopupBackgroundSelected=   &c31334300
+      ColorMentionPopupText=   &c00000000
+      ColorMentionPopupTextHover=   &c00000000
       ColorPlaceholder=   &c00000000
       ColorQuote      =   &c00000000
       ColorScheme     =   0
@@ -757,7 +762,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   236
    End
-   Begin DesktopRectangle rCTextItalic
+   Begin DesktopRectangle rcTextItalic
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -844,7 +849,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   236
    End
-   Begin DesktopRectangle rCMentionBackground
+   Begin DesktopRectangle rcMentionBackground
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -902,7 +907,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   189
    End
-   Begin DesktopRectangle rCLinks
+   Begin DesktopRectangle rcLinks
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -1284,7 +1289,7 @@ Begin DesktopWindow windowRTEditDemo
       VisualState     =   1
       Width           =   67
    End
-   Begin DesktopRectangle rCScrollbar
+   Begin DesktopRectangle rcScrollbar
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -1340,7 +1345,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   189
    End
-   Begin DesktopRectangle rCScrollbarHover
+   Begin DesktopRectangle rcScrollbarHover
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -1486,7 +1491,7 @@ Begin DesktopWindow windowRTEditDemo
       VisualState     =   0
       Width           =   67
    End
-   Begin DesktopRectangle rCMention
+   Begin DesktopRectangle rcMention
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -1542,7 +1547,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   189
    End
-   Begin DesktopRectangle rCPlaceholder
+   Begin DesktopRectangle rcPlaceholder
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -1629,7 +1634,7 @@ Begin DesktopWindow windowRTEditDemo
       Visible         =   True
       Width           =   237
    End
-   Begin DesktopRectangle rCBlockQuote
+   Begin DesktopRectangle rcBlockQuote
       AllowAutoDeactivate=   True
       BorderColor     =   &c000000
       BorderThickness =   1.0
@@ -2040,6 +2045,7 @@ End
 		  
 		  
 		  
+		  
 		End Sub
 	#tag EndEvent
 
@@ -2051,8 +2057,32 @@ End
 	#tag EndMenuHandler
 
 	#tag MenuHandler
-		Function mnuAbout() As Boolean Handles mnuAbout.Action
+		Function mnuAboutRTEdit() As Boolean Handles mnuAboutRTEdit.Action
 		  messagebox "RTEdit v" + RTEdit.Version
+		  Return True
+		  
+		End Function
+	#tag EndMenuHandler
+
+	#tag MenuHandler
+		Function mnuChatBotExample() As Boolean Handles mnuChatBotExample.Action
+		  // RTEdit AppendText demo (using OpenAI)
+		  
+		  if App.HasOpenAIKey then
+		    windowChatBotExample.Show
+		    
+		  else
+		    windowOpenAIKey.ShowModal(self)
+		    if app.HasOpenAIKey then
+		      windowChatBotExample.Show
+		      
+		    else
+		      messagebox "An OpenAI APIKEY is required to run the AppendText demo"
+		      
+		    end if
+		    
+		  end if
+		  
 		  Return True
 		  
 		End Function
@@ -2066,27 +2096,27 @@ End
 		  ShowSchemeColors
 		  
 		  // Toolbar features (note, the clipboard will behave and allow paste of content, depending on which features are enabled)
-		  Redit.AllowBold = chkBold.Value
-		  Redit.AllowBulletins = chkBulletin.Value
-		  Redit.AllowCleanFormatting = chkClean.Value
-		  Redit.AllowCode = chkCode.Value
-		  Redit.AllowFontSelection = chkFont.Value
-		  Redit.AllowHeaders = chkHeadings.Value
-		  Redit.AllowImage = chkImage.value
-		  Redit.AllowIndentation = chkIndentation.value
-		  Redit.AllowItalic = chkItalic.Value
-		  Redit.AllowLinks = chkLinks.Value
-		  Redit.AllowList = chkList.value
-		  Redit.AllowQuote = chkQuote.Value
-		  Redit.AllowStrikeThrough = chkStrike.Value
-		  Redit.AllowSubscript = chkSubscript.Value
-		  Redit.AllowSuperscript = chkSuperscript.Value
-		  Redit.AllowTextColor = chkTextColor.Value
-		  Redit.AllowTextBackgroundColor = chkTextBackgroundColor.Value
-		  Redit.AllowUnderline = chkUnderline.Value
+		  REdit.AllowBold = chkBold.Value
+		  REdit.AllowBulletins = chkBulletin.Value
+		  REdit.AllowCleanFormatting = chkClean.Value
+		  REdit.AllowCode = chkCode.Value
+		  REdit.AllowFontSelection = chkFont.Value
+		  REdit.AllowHeaders = chkHeadings.Value
+		  REdit.AllowImage = chkImage.value
+		  REdit.AllowIndentation = chkIndentation.value
+		  REdit.AllowItalic = chkItalic.Value
+		  REdit.AllowLinks = chkLinks.Value
+		  REdit.AllowList = chkList.value
+		  REdit.AllowQuote = chkQuote.Value
+		  REdit.AllowStrikeThrough = chkStrike.Value
+		  REdit.AllowSubscript = chkSubscript.Value
+		  REdit.AllowSuperscript = chkSuperscript.Value
+		  REdit.AllowTextColor = chkTextColor.Value
+		  REdit.AllowTextBackgroundColor = chkTextBackgroundColor.Value
+		  REdit.AllowUnderline = chkUnderline.Value
 		  
 		  // Keyboard bindings
-		  Redit.KeyboardBindStyles = chkKeyboardBinding.Value
+		  REdit.KeyboardBindStyles = chkKeyboardBinding.Value
 		  
 		  
 		End Sub
@@ -2098,12 +2128,12 @@ End
 		  
 		  // Bubble
 		  if ThemeID = 0 then 
-		    Redit.Theme = RTEdit.Themes.Bubble
+		    REdit.Theme = RTEdit.Themes.Bubble
 		    EnableSnowProperties(False)
 		    
 		    // Snow
 		  else 
-		    Redit.Theme = RTEdit.Themes.Snow
+		    REdit.Theme = RTEdit.Themes.Snow
 		    EnableSnowProperties
 		    SetSnowProperties
 		    
@@ -2112,7 +2142,7 @@ End
 		  ApplyProperties
 		  
 		  // Re-Initialize the control
-		  Redit.Initialize
+		  REdit.Initialize
 		End Sub
 	#tag EndMethod
 
@@ -2127,55 +2157,55 @@ End
 
 	#tag Method, Flags = &h0
 		Sub HelloWorld()
-		  Redit.Document =  "Hello world!"
+		  REdit.Document =  "Hello world!"
 		End Sub
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
 		Sub Initialize()
 		  
-		  // Initialize Rich Text control, called from Redit.Opening event (processed before EditorReady event
+		  // Initialize Rich Text control, called from REdit.Opening event (processed before EditorReady event
 		  // -------------------------------------------------------------------------------------------------
 		  
 		  // Apply basic theme
-		  if segThemes.SelectedSegmentIndex = 0 then Redit.Theme = RTEdit.Themes.Bubble else Redit.Theme = RTEdit.Themes.Snow
+		  if segThemes.SelectedSegmentIndex = 0 then REdit.Theme = RTEdit.Themes.Bubble else REdit.Theme = RTEdit.Themes.Snow
 		  
 		  // Apply properties, settings, colors etc. in the opening event (self.opening fires AFTER)
-		  Redit.ColorScheme = RTEdit.ColorSchemes.None
+		  REdit.ColorScheme = RTEdit.ColorSchemes.None
 		  
 		  // Do we start in edit mode or read-only mode
-		  Redit.EditMode = chkEditMode.Value
+		  REdit.EditMode = chkEditMode.Value
 		  
 		  // Let's define a placeholder
-		  Redit.PlaceHolder = "Start typing here to create a new document..."
+		  REdit.PlaceHolder = "Start typing here to create a new document..."
 		  
 		  // The following settings only apply to theme 'snow'
 		  SetSnowProperties
 		  
 		  // Define toolbar buttons, Default are : bold, italic, underline, headings, bulletins, links
-		  Redit.AllowAlignment = False
-		  Redit.AllowBold = True
-		  Redit.AllowBulletins = True
-		  Redit.AllowCode = False
-		  Redit.AllowHeaders = True
-		  Redit.AllowIndentation = False
-		  Redit.AllowItalic = True
-		  Redit.AllowImage = False
-		  Redit.AllowLinks = True
-		  Redit.AllowList = True
-		  Redit.AllowQuote = True
-		  Redit.AllowStrikeThrough = False
-		  Redit.AllowSubscript = False
-		  Redit.AllowSuperscript = False
-		  Redit.AllowTextBackgroundColor = False
-		  Redit.AllowUnderline = True
-		  Redit.AllowTextColor = True
+		  REdit.AllowAlignment = False
+		  REdit.AllowBold = True
+		  REdit.AllowBulletins = True
+		  REdit.AllowCode = False
+		  REdit.AllowHeaders = True
+		  REdit.AllowIndentation = False
+		  REdit.AllowItalic = True
+		  REdit.AllowImage = False
+		  REdit.AllowLinks = True
+		  REdit.AllowList = True
+		  REdit.AllowQuote = True
+		  REdit.AllowStrikeThrough = False
+		  REdit.AllowSubscript = False
+		  REdit.AllowSuperscript = False
+		  REdit.AllowTextBackgroundColor = False
+		  REdit.AllowUnderline = True
+		  REdit.AllowTextColor = True
 		  
 		  // Allow text to be dragged & dropped into the control, either from within or outside
-		  Redit.AllowTextDragDrop = True // True by default
+		  REdit.AllowTextDragDrop = True // True by default
 		  
 		  // Keyboard Binding Styles is true by default, it enables Command+1/2/3/4 for styling
-		  Redit.KeyboardBindStyles = True
+		  REdit.KeyboardBindStyles = True
 		  
 		  // Toolbar, note that Bubble theme does not support a toolbar
 		  if segThemes.SelectedSegmentIndex = 0 then
@@ -2189,31 +2219,31 @@ End
 		  end if
 		  
 		  // AutoFormat links / e-mail addresses
-		  Redit.AutoFormatLinks = true // True by default, Redit converts emails and urls to clickable elements on the fly
+		  REdit.AutoFormatLinks = true // True by default, Redit converts emails and urls to clickable elements on the fly
 		  
 		  // Mentions
 		  // ----------
 		  
 		  // Let's enable Mentions
-		  Redit.MentionsEnabled = true
+		  REdit.MentionsEnabled = true
 		  
 		  // I want to style mentions with bold font-weight
-		  Redit.MentionTextBold = true
+		  REdit.MentionTextBold = true
 		  
 		  // We want to allow mentions, let's feed in some bracket variables
-		  Redit.VariablesBrackets = Array("Patient", "SSID", "Address", "Phone", "Gender","Age", "Birthyear")
+		  REdit.VariablesBrackets = Array("Patient", "SSID", "Address", "Phone", "Gender","Age", "Birthyear")
 		  
 		  // And some brace variables
-		  Redit.VariablesBraces = Array("Full name", "Title", "Profession", "Workplace", "Phone")
+		  REdit.VariablesBraces = Array("Full name", "Title", "Profession", "Workplace", "Phone")
 		  
 		  // Add some @ variables
-		  Redit.VariablesPercent = Array("TSH","T4","B12","D-Vitamin","ESR","LEU","Krea","Na","K","Ca","P","Crp")
+		  REdit.VariablesPercent = Array("TSH","T4","B12","D-Vitamin","ESR","LEU","Krea","Na","K","Ca","P","Crp")
 		  
 		  // Add some # variables
-		  Redit.VariablesHash = Array("General advice", "Paracetamol 1g for fever", "Visit again if symptoms worsen","Doxylin 100mg, 2 tablets the first day, then one a day","Doxylin 1 tablet 2x a day for 2 weeks", "Azithromycin 500mg 1 tablet 1x a day for 3 days","Vitals every 4 hours","Vitals once per shift", "Vitals every 8 hours", "Blood culturing if fever > 38.5°")
+		  REdit.VariablesHash = Array("General advice", "Paracetamol 1g for fever", "Visit again if symptoms worsen","Doxylin 100mg, 2 tablets the first day, then one a day","Doxylin 1 tablet 2x a day for 2 weeks", "Azithromycin 500mg 1 tablet 1x a day for 3 days","Vitals every 4 hours","Vitals once per shift", "Vitals every 8 hours", "Blood culturing if fever > 38.5°")
 		  
 		  // Add some $ variables
-		  Redit.VariablesDollar = Array("SaO2","T","P","Bp","Kg","RR")
+		  REdit.VariablesDollar = Array("SaO2","T","P","Bp","Kg","RR")
 		  
 		  // Initialize control with our above settings manually (if auto-initialize is disabled)
 		  REdit.Initialize
@@ -2262,25 +2292,25 @@ End
 
 	#tag Method, Flags = &h21
 		Private Sub SetSnowProperties()
-		  Redit.Toolbar = chkToolbar.Value
-		  Redit.ToolbarBorder = chkToolbarBorder.Value
-		  if chkAlignToolbarCenter.Value = true then Redit.ToolbarAlignment = RTEdit.ToolBarAlignments.Center
+		  REdit.Toolbar = chkToolbar.Value
+		  REdit.ToolbarBorder = chkToolbarBorder.Value
+		  if chkAlignToolbarCenter.Value = true then REdit.ToolbarAlignment = RTEdit.ToolBarAlignments.Center
 		  
 		End Sub
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
 		Sub ShowSchemeColors()
-		  rCBackground.FillColor = Redit.ColorBackground
-		  rCBackgroundSelected.FillColor = Redit.ColorBackgroundSelection
-		  rCBlockQuote.FillColor = Redit.ColorQuote
-		  rCLinks.FillColor = Redit.ColorLink
-		  rCMention.FillColor = Redit.ColorMention
-		  rCMentionBackground.FillColor = Redit.ColorMentionBackground
-		  rCPlaceholder.FillColor = Redit.ColorPlaceholder
-		  rCText.FillColor = Redit.ColorText
-		  rCTextItalic.FillColor = Redit.ColorTextItalic
-		  rCTextSelected.FillColor = Redit.ColorTextSelection
+		  rCBackground.FillColor = REdit.ColorBackground
+		  rCBackgroundSelected.FillColor = REdit.ColorBackgroundSelection
+		  rCBlockQuote.FillColor = REdit.ColorQuote
+		  rCLinks.FillColor = REdit.ColorLink
+		  rCMention.FillColor = REdit.ColorMention
+		  rCMentionBackground.FillColor = REdit.ColorMentionBackground
+		  rCPlaceholder.FillColor = REdit.ColorPlaceholder
+		  rCText.FillColor = REdit.ColorText
+		  rCTextItalic.FillColor = REdit.ColorTextItalic
+		  rCTextSelected.FillColor = REdit.ColorTextSelection
 		End Sub
 	#tag EndMethod
 
@@ -2373,73 +2403,73 @@ End
 		  
 		  select case SelectedColorElement.Name
 		  case "rCBackground" 
-		    Redit.ColorBackground = selectedColor
+		    REdit.ColorBackground = selectedColor
 		    
 		  case "rCBackgroundSelected" 
-		    Redit.ColorBackgroundSelection = selectedColor
+		    REdit.ColorBackgroundSelection = selectedColor
 		    
 		  case "rCBlockQuote"
-		    Redit.ColorQuote = selectedColor
+		    REdit.ColorQuote = selectedColor
 		    
 		  case "rCEditorPlaceholder"
-		    Redit.ColorPlaceholder = selectedColor
+		    REdit.ColorPlaceholder = selectedColor
 		    
 		  case "rCLinks"
-		    Redit.ColorLink = selectedColor
+		    REdit.ColorLink = selectedColor
 		    
 		  case "rCMention"
-		    Redit.ColorMention = selectedColor
+		    REdit.ColorMention = selectedColor
 		    
 		  case "rCMentionBackground"
-		    Redit.ColorMentionBackground = selectedColor
+		    REdit.ColorMentionBackground = selectedColor
 		    
 		  case "rCPlaceholder" 
-		    Redit.ColorPlaceholder = selectedColor
+		    REdit.ColorPlaceholder = selectedColor
 		    
 		  case "rcText" 
-		    Redit.ColorText = selectedColor
+		    REdit.ColorText = selectedColor
 		    
 		  case "rCScrollbar"
-		    Redit.ColorScrollbar = selectedColor
+		    REdit.ColorScrollbar = selectedColor
 		    
 		  case "rCScrollbarHover"
-		    Redit.ColorScrollbarHover = selectedColor
+		    REdit.ColorScrollbarHover = selectedColor
 		    
 		  case "rCTextItalic" 
-		    Redit.ColorTextItalic = selectedColor
+		    REdit.ColorTextItalic = selectedColor
 		    
 		  case "rCTextSelected" 
-		    Redit.ColorTextSelection = selectedColor
+		    REdit.ColorTextSelection = selectedColor
 		    
 		  end select
 		  
-		  Redit.SetColors
-		  Redit.SetCustomCSS
+		  REdit.SetColors
+		  REdit.SetCustomCSS
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCBackground
+#tag Events rcBackground
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
 		End Function
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCBackgroundSelected
+#tag Events rcBackgroundSelected
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
 		End Function
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCText
+#tag Events rcText
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
 		End Function
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCTextSelected
+#tag Events rcTextSelected
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
@@ -2449,7 +2479,7 @@ End
 #tag Events btnLoadUserGuide
 	#tag Event
 		Sub Pressed()
-		  Redit.Document = REdit.UserGuide
+		  REdit.Document = REdit.UserGuide
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2457,11 +2487,11 @@ End
 	#tag Event
 		Sub Pressed()
 		  // Easily store tags and data within the editor instance
-		  REdit.StoreTag("FileOnDisk","mydatafile.txt")
-		  REdit.StoreTag("FileID",1849)
-		  REdit.StoreTag("Author","Sveinn Runar")
+		  REdit.SaveTag("FileOnDisk","mydatafile.txt")
+		  REdit.SaveTag("FileID",1849)
+		  REdit.SaveTag("Author","Sveinn Runar")
 		  
-		  messagebox REdit.RetrieveTag("FileOnDisk").StringValue + " - " + REdit.RetrieveTag("FileID").StringValue + " - " + REdit.RetrieveTag("Author")
+		  messagebox REdit.LoadTag("FileOnDisk").StringValue + " - " + REdit.LoadTag("FileID").StringValue + " - " + REdit.LoadTag("Author")
 		  
 		  
 		End Sub
@@ -2470,7 +2500,7 @@ End
 #tag Events btnLoadDocument
 	#tag Event
 		Sub Pressed()
-		  Redit.Document = K_TEST_DOC
+		  REdit.Document = K_TEST_DOC
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2520,7 +2550,7 @@ End
 		  
 		  if mSelected <> nil then
 		    if mSelected.tag = "COPY" then
-		      Redit.CopySelectionToClipboard
+		      REdit.CopySelectionToClipboard
 		      
 		    elseif mSelected.Tag = "ALL" then
 		      me.SelectAll
@@ -2529,8 +2559,8 @@ End
 		      var c as new Clipboard
 		      var s as string
 		      s = c.Text
-		      redit.ClipboardPaste(s)
-		      //Redit.ClipboardPasteSelection("Text to be pasted over the selected text")
+		      REdit.ClipboardPaste(s)
+		      //REdit.ClipboardPasteSelection("Text to be pasted over the selected text")
 		      
 		    elseif mSelected.Tag <> nil then 
 		      if mSelected.Tag.StringValue.Left(1) = "[" then
@@ -2588,7 +2618,7 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCTextItalic
+#tag Events rcTextItalic
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
@@ -2598,18 +2628,18 @@ End
 #tag Events btnSaveColorsAsScheme
 	#tag Event
 		Sub Pressed()
-		  tDebugCSS.Text = Redit.SaveColorsAsScheme.ToString
+		  tDebugCSS.Text = REdit.SaveColorsAsScheme.ToString
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCMentionBackground
+#tag Events rcMentionBackground
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
 		End Function
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCLinks
+#tag Events rcLinks
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
@@ -2687,14 +2717,14 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCScrollbar
+#tag Events rcScrollbar
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
 		End Function
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCScrollbarHover
+#tag Events rcScrollbarHover
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
@@ -2722,14 +2752,14 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCMention
+#tag Events rcMention
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
 		End Function
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCPlaceholder
+#tag Events rcPlaceholder
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
@@ -2739,7 +2769,7 @@ End
 #tag Events btnGetDocumentVariables
 	#tag Event
 		Sub Pressed()
-		  var sArray() as string = Redit.getDocumentMentions
+		  var sArray() as string = REdit.getDocumentMentions
 		  
 		  tDebugCSS.Text = ""
 		  
@@ -2751,7 +2781,7 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events rCBlockQuote
+#tag Events rcBlockQuote
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  SetColorPicker(me)
@@ -2818,7 +2848,7 @@ End
 #tag Events chkEnableRightClick
 	#tag Event
 		Sub ValueChanged()
-		  Redit.EnableRightClick = me.Value
+		  REdit.EnableRightClick = me.Value
 		End Sub
 	#tag EndEvent
 #tag EndEvents

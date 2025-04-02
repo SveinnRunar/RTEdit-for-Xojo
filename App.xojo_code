@@ -1,13 +1,52 @@
 #tag Class
 Protected Class App
 Inherits DesktopApplication
+	#tag Event
+		Sub Opening()
+		  GetOpenAIKey
+		  windowRTEditDemo.Show
+		  
+		  
+		  
+		End Sub
+	#tag EndEvent
+
+
+	#tag Method, Flags = &h21
+		Private Sub GetOpenAIKey()
+		  // Store the OpenAI key 
+		  var demoSettings as JSONItem
+		  demoSettings = mFolderItem.LoadSettingsFileInApplicationFolder("RTEdit")
+		  
+		  // We have an OpenAI key
+		  if demoSettings.HasKey("OpenAIKey") then
+		    if demoSettings.Value("OpenAIKey") <> "" then app.OpenAIKey = demoSettings.Value("OpenAIKey")
+		    
+		  end if
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Function HasOpenAIKey() As Boolean
+		  // Check for OpenAI Key
+		  if OpenAIKey.Trim <> "" then return true else return False
+		End Function
+	#tag EndMethod
+
+
 	#tag Note, Name = RTEdit
 		RTEdit by Sveinn Runar Sigurdsson
-		Acknowledgement and license
+		All rights reserverd, MS Investments LLC, 540807-0430.
+		
+		Acknowledgement and license:
 		
 		This control is free to use, but requires proper acknowledgment in any derived work or application. 
 		You must mention the original author and provide a link to this repository in your documentation or credits. 
 		A part of this control is based on Quill 2.0+ https://github.com/slab/quill/blob/main/LICENSE
+		
+		For demo purposes, I use Garry Pettet's AIKIt to test the AppendText feature (OpenAI). 
+		This great class is maintained by Garry at https://github.com/gkjpettet/AIKit
 		
 		Terms
 		Free to Use: You are allowed to use this control in your projects without charge. 
@@ -15,6 +54,14 @@ Inherits DesktopApplication
 		No Decryption or Modification: You are not allowed to decrypt, reverse-engineer, or modify the control in any way.
 		
 	#tag EndNote
+
+
+	#tag Property, Flags = &h0
+		#tag Note
+			// OpenAI key
+		#tag EndNote
+		OpenAIKey As String
+	#tag EndProperty
 
 
 	#tag Constant, Name = kEditClear, Type = String, Dynamic = False, Default = \"&Delete", Scope = Public
