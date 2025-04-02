@@ -34,6 +34,10 @@ ColorBackgroundSelection
 Colorlink
 ColorMention
 ColorMentionBackground
+ColorMentionPopupBackground
+ColorMentionPopupBackgroundSelected
+ColorMentionPopupText
+ColorMentionPopupTextHover
 ColorPlaceholder
 ColorQuote
 ColorScrollbar
