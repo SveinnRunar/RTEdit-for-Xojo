@@ -5,7 +5,7 @@ A standalone class that provides a highly flexible rich text editing experience 
 REditor.Document = &quot;&lt;b&gt;Bold Text Here&lt;/b&gt;&quot;
 REditor.Initialize
 </pre>
-<p>RTEdit introduction & showcase video https://www.youtube.com/watch?v=j4tDSoc2MWk
+<p>RTEdit introduction & showcase video https://www.youtube.com/watch?v=j4tDSoc2MWk<br>
 RTEdit as a ChatBot container, using AppendText https://studio.youtube.com/video/6AjP1rfs3p8/edit</p>
 <p>Below is a list of its main properties, methods, and events.</p>
 <h2></h2><h2>Properties</h2><h3>Formatting &amp; Toolbar buttons</h3><pre data-language="plain">
