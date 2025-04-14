@@ -20,7 +20,7 @@ Begin DesktopWindow windowRTEditDemo
    MinimumHeight   =   800
    MinimumWidth    =   1296
    Resizeable      =   True
-   Title           =   "REdit"
+   Title           =   "RTEdit"
    Type            =   0
    Visible         =   True
    Width           =   1296
@@ -46,7 +46,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   90
+      Top             =   82
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -109,7 +109,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   683
+      Top             =   691
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -140,7 +140,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   708
+      Top             =   716
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -228,11 +228,11 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   8
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "Colors"
+      Text            =   "Theme"
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   138
+      Top             =   130
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -261,7 +261,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   138
+      Top             =   130
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -283,7 +283,7 @@ Begin DesktopWindow windowRTEditDemo
       HasBorder       =   True
       HasHorizontalScrollbar=   False
       HasVerticalScrollbar=   True
-      Height          =   115
+      Height          =   121
       HideSelection   =   True
       Index           =   -2147483648
       Italic          =   False
@@ -340,7 +340,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   18
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   166
+      Top             =   158
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -371,7 +371,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   164
+      Top             =   156
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -396,7 +396,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   20
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   186
+      Top             =   178
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -427,7 +427,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   184
+      Top             =   176
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -452,7 +452,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   22
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   346
+      Top             =   338
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -483,7 +483,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   344
+      Top             =   336
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -508,7 +508,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   26
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   386
+      Top             =   378
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -539,7 +539,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   384
+      Top             =   376
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -570,7 +570,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   658
+      Top             =   666
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -601,7 +601,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   608
+      Top             =   616
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -632,7 +632,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   633
+      Top             =   641
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -654,10 +654,12 @@ Begin DesktopWindow windowRTEditDemo
       AllowItalic     =   True
       AllowLinks      =   True
       AllowList       =   True
+      AllowMentions   =   False
       AllowQuote      =   False
       AllowStrikeThrough=   False
       AllowSubscript  =   False
       AllowSuperscript=   False
+      AllowTables     =   True
       AllowTabs       =   False
       AllowTextBackgroundColor=   True
       AllowTextColor  =   True
@@ -668,7 +670,6 @@ Begin DesktopWindow windowRTEditDemo
       AutoInitialize  =   True
       Backdrop        =   0
       BackgroundColor =   &cFFFFFF
-      bEnableRightClicking=   True
       BlockquoteIndentation=   0
       ColorBackground =   &cFFFFFF00
       ColorBackgroundSelection=   &c00000000
@@ -709,7 +710,6 @@ Begin DesktopWindow windowRTEditDemo
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   True
-      MentionsEnabled =   False
       MentionTextBold =   False
       MentionTextItalic=   False
       pauseDocumentEvents=   False
@@ -721,7 +721,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   36
       TabPanelIndex   =   0
       TabStop         =   True
-      Theme           =   0.0
+      Theme           =   1
       Toolbar         =   False
       ToolbarAlignment=   ""
       ToolbarBorder   =   False
@@ -756,7 +756,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   583
+      Top             =   591
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -781,7 +781,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   38
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   366
+      Top             =   358
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -812,7 +812,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   364
+      Top             =   356
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -843,7 +843,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   408
+      Top             =   400
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -869,7 +869,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   41
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   266
+      Top             =   258
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -901,7 +901,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   264
+      Top             =   256
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -926,7 +926,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   43
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   226
+      Top             =   218
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -957,7 +957,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   224
+      Top             =   216
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1041,7 +1041,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   431
+      Top             =   423
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1071,7 +1071,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   431
+      Top             =   423
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1101,7 +1101,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   431
+      Top             =   423
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1131,7 +1131,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Headers"
-      Top             =   451
+      Top             =   443
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1161,7 +1161,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow URL"
-      Top             =   451
+      Top             =   443
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1191,7 +1191,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow bulletins (List and Numericals)"
-      Top             =   451
+      Top             =   443
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1221,7 +1221,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable Image upload"
-      Top             =   471
+      Top             =   463
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1251,7 +1251,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "If true, you can use Command+1 2 3 4 to change header styles"
-      Top             =   90
+      Top             =   82
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1281,7 +1281,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable Image upload"
-      Top             =   471
+      Top             =   463
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1308,7 +1308,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   56
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   306
+      Top             =   298
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -1339,7 +1339,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   304
+      Top             =   296
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1364,7 +1364,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   58
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   326
+      Top             =   318
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -1395,7 +1395,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   324
+      Top             =   316
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1423,7 +1423,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable subscript"
-      Top             =   491
+      Top             =   483
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1453,7 +1453,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable superscript"
-      Top             =   491
+      Top             =   483
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1483,7 +1483,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable code"
-      Top             =   471
+      Top             =   463
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1510,7 +1510,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   65
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   246
+      Top             =   238
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -1541,7 +1541,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   244
+      Top             =   236
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1566,7 +1566,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   67
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   286
+      Top             =   278
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -1597,7 +1597,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   284
+      Top             =   276
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1628,7 +1628,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   733
+      Top             =   741
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1654,7 +1654,7 @@ Begin DesktopWindow windowRTEditDemo
       TabIndex        =   70
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   206
+      Top             =   198
       Transparent     =   False
       Visible         =   True
       Width           =   16
@@ -1686,7 +1686,7 @@ Begin DesktopWindow windowRTEditDemo
       TextAlignment   =   0
       TextColor       =   &c000000
       Tooltip         =   ""
-      Top             =   204
+      Top             =   196
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1714,12 +1714,12 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow font selection"
-      Top             =   491
+      Top             =   483
       Transparent     =   False
       Underline       =   False
       Value           =   False
       Visible         =   True
-      VisualState     =   0
+      VisualState     =   1
       Width           =   67
    End
    Begin DesktopCheckBox chkClean
@@ -1744,7 +1744,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Clean code"
-      Top             =   511
+      Top             =   503
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1774,7 +1774,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable Indentation"
-      Top             =   511
+      Top             =   503
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1804,7 +1804,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable bulletin list"
-      Top             =   511
+      Top             =   503
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1820,7 +1820,7 @@ Begin DesktopWindow windowRTEditDemo
       FontName        =   "System"
       FontSize        =   0.0
       FontUnit        =   0
-      Height          =   20
+      Height          =   22
       Index           =   -2147483648
       Italic          =   False
       Left            =   1050
@@ -1834,7 +1834,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Allow strike through"
-      Top             =   531
+      Top             =   523
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1864,7 +1864,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable text color selection"
-      Top             =   531
+      Top             =   523
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1894,7 +1894,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   "Enable background color for text"
-      Top             =   531
+      Top             =   523
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1928,7 +1928,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   758
+      Top             =   766
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1956,7 +1956,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   110
+      Top             =   102
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -1989,7 +1989,7 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   758
+      Top             =   766
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -2020,11 +2020,41 @@ Begin DesktopWindow windowRTEditDemo
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   557
+      Top             =   565
       Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   236
+   End
+   Begin DesktopCheckBox chkTable
+      AllowAutoDeactivate=   True
+      Bold            =   False
+      Caption         =   "Table"
+      Enabled         =   False
+      FontName        =   "System"
+      FontSize        =   0.0
+      FontUnit        =   0
+      Height          =   20
+      Index           =   -2147483648
+      Italic          =   False
+      Left            =   1050
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   False
+      LockRight       =   True
+      LockTop         =   True
+      Scope           =   0
+      TabIndex        =   84
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Tooltip         =   "Allow strike through"
+      Top             =   543
+      Transparent     =   False
+      Underline       =   False
+      Value           =   False
+      Visible         =   True
+      VisualState     =   1
+      Width           =   67
    End
 End
 #tag EndDesktopWindow
@@ -2041,7 +2071,9 @@ End
 		  // customize the control (fired before EditorReady event)
 		  self.Title = "RTEdit v" + REdit.Version
 		  
-		  ShowSchemeColors
+		  DisplayThemeColors
+		  
+		  //REdit.
 		  
 		  
 		  
@@ -2088,12 +2120,20 @@ End
 		End Function
 	#tag EndMenuHandler
 
+	#tag MenuHandler
+		Function mnuTableExample() As Boolean Handles mnuTableExample.Action
+		  windowTableExample.Show
+		  Return True
+		  
+		End Function
+	#tag EndMenuHandler
+
 
 	#tag Method, Flags = &h0
 		Sub ApplyProperties()
 		  // Reset color scheme
 		  pTheme.SelectedRowIndex = 0
-		  ShowSchemeColors
+		  DisplayThemeColors
 		  
 		  // Toolbar features (note, the clipboard will behave and allow paste of content, depending on which features are enabled)
 		  REdit.AllowBold = chkBold.Value
@@ -2111,6 +2151,7 @@ End
 		  REdit.AllowStrikeThrough = chkStrike.Value
 		  REdit.AllowSubscript = chkSubscript.Value
 		  REdit.AllowSuperscript = chkSuperscript.Value
+		  REdit.AllowTables = chkTable.Value
 		  REdit.AllowTextColor = chkTextColor.Value
 		  REdit.AllowTextBackgroundColor = chkTextBackgroundColor.Value
 		  REdit.AllowUnderline = chkUnderline.Value
@@ -2123,32 +2164,24 @@ End
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		Sub ChangeTheme(ThemeID as integer)
-		  if blockControlUpdates then exit
-		  
-		  // Bubble
-		  if ThemeID = 0 then 
-		    REdit.Theme = RTEdit.Themes.Bubble
-		    EnableSnowProperties(False)
-		    
-		    // Snow
-		  else 
-		    REdit.Theme = RTEdit.Themes.Snow
-		    EnableSnowProperties
-		    SetSnowProperties
-		    
-		  end if
-		  
-		  ApplyProperties
-		  
-		  // Re-Initialize the control
-		  REdit.Initialize
+		Sub DisplayThemeColors()
+		  rCBackground.FillColor = REdit.ColorBackground
+		  rCBackgroundSelected.FillColor = REdit.ColorBackgroundSelection
+		  rCBlockQuote.FillColor = REdit.ColorQuote
+		  rCLinks.FillColor = REdit.ColorLink
+		  rCMention.FillColor = REdit.ColorMention
+		  rCMentionBackground.FillColor = REdit.ColorMentionBackground
+		  rCPlaceholder.FillColor = REdit.ColorPlaceholder
+		  rCText.FillColor = REdit.ColorText
+		  rCTextItalic.FillColor = REdit.ColorTextItalic
+		  rCTextSelected.FillColor = REdit.ColorTextSelection
 		End Sub
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
 		Sub EnableSnowProperties(Optional Enable As Boolean = true)
 		  chkAlignToolbarCenter.Enabled = Enable
+		  chkTable.Enabled = Enable
 		  chkToolbar.Enabled = Enable
 		  chkToolbarBorder.Enabled = Enable
 		  
@@ -2166,6 +2199,8 @@ End
 		  
 		  // Initialize Rich Text control, called from REdit.Opening event (processed before EditorReady event
 		  // -------------------------------------------------------------------------------------------------
+		  
+		  // Note, almost all of these properties can be defined with no code from the IDE.
 		  
 		  // Apply basic theme
 		  if segThemes.SelectedSegmentIndex = 0 then REdit.Theme = RTEdit.Themes.Bubble else REdit.Theme = RTEdit.Themes.Snow
@@ -2187,6 +2222,7 @@ End
 		  REdit.AllowBold = True
 		  REdit.AllowBulletins = True
 		  REdit.AllowCode = False
+		  REdit.AllowFontSelection = true
 		  REdit.AllowHeaders = True
 		  REdit.AllowIndentation = False
 		  REdit.AllowItalic = True
@@ -2197,15 +2233,17 @@ End
 		  REdit.AllowStrikeThrough = False
 		  REdit.AllowSubscript = False
 		  REdit.AllowSuperscript = False
+		  REdit.AllowTables = True // By default, tables are allowed, only enabled when using theme 'Snow'
 		  REdit.AllowTextBackgroundColor = False
 		  REdit.AllowUnderline = True
 		  REdit.AllowTextColor = True
+		  REdit.AllowMentions = False
 		  
 		  // Allow text to be dragged & dropped into the control, either from within or outside
-		  REdit.AllowTextDragDrop = True // True by default
+		  REdit.AllowTextDragDrop = False // True by default
 		  
 		  // Keyboard Binding Styles is true by default, it enables Command+1/2/3/4 for styling
-		  REdit.KeyboardBindStyles = True
+		  REdit.KeyboardBindStyles = False
 		  
 		  // Toolbar, note that Bubble theme does not support a toolbar
 		  if segThemes.SelectedSegmentIndex = 0 then
@@ -2225,7 +2263,7 @@ End
 		  // ----------
 		  
 		  // Let's enable Mentions
-		  REdit.MentionsEnabled = true
+		  REdit.AllowMentions = true
 		  
 		  // I want to style mentions with bold font-weight
 		  REdit.MentionTextBold = true
@@ -2245,8 +2283,10 @@ End
 		  // Add some $ variables
 		  REdit.VariablesDollar = Array("SaO2","T","P","Bp","Kg","RR")
 		  
-		  // Initialize control with our above settings manually (if auto-initialize is disabled)
-		  REdit.Initialize
+		  // Note, if you want to postbone the RTEdit.Initialize event and do it manually, you set:
+		  // REdit.AutoInitialize = False
+		  // This means that after setting your properties and settings, you need to fire the Initialize event manually:
+		  // REdit.Initialize
 		  
 		  
 		End Sub
@@ -2284,7 +2324,7 @@ End
 		    
 		  end Select
 		  
-		  ShowSchemeColors
+		  DisplayThemeColors
 		  
 		  
 		End Sub
@@ -2300,17 +2340,26 @@ End
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		Sub ShowSchemeColors()
-		  rCBackground.FillColor = REdit.ColorBackground
-		  rCBackgroundSelected.FillColor = REdit.ColorBackgroundSelection
-		  rCBlockQuote.FillColor = REdit.ColorQuote
-		  rCLinks.FillColor = REdit.ColorLink
-		  rCMention.FillColor = REdit.ColorMention
-		  rCMentionBackground.FillColor = REdit.ColorMentionBackground
-		  rCPlaceholder.FillColor = REdit.ColorPlaceholder
-		  rCText.FillColor = REdit.ColorText
-		  rCTextItalic.FillColor = REdit.ColorTextItalic
-		  rCTextSelected.FillColor = REdit.ColorTextSelection
+		Sub UpdateStyling(ThemeID as integer)
+		  if blockControlUpdates then exit
+		  
+		  // Bubble
+		  if ThemeID = 0 then 
+		    REdit.Theme = RTEdit.Themes.Bubble
+		    EnableSnowProperties(False)
+		    
+		    // Snow
+		  else 
+		    REdit.Theme = RTEdit.Themes.Snow
+		    EnableSnowProperties
+		    SetSnowProperties
+		    
+		  end if
+		  
+		  ApplyProperties
+		  
+		  // Re-Initialize the control
+		  REdit.Initialize
 		End Sub
 	#tag EndMethod
 
@@ -2330,6 +2379,9 @@ End
 
 
 	#tag Constant, Name = K_TEST_DOC, Type = String, Dynamic = False, Default = \"<h2>What Is Dynamic Programming\?</h2><p><strong>Dynamic programming is a computer programming technique where an algorithmic problem is first broken down into sub-problems\x2C the results are saved\x2C and then the sub-problems are optimized to find the overall solution \xE2\x80\x94 which usually has to do with finding the maximum and minimum range of the algorithmic query.&nbsp;</strong></p><p>Richard Bellman was the one who came up with the idea for dynamic programming in the 1950s. It is a method of mathematical optimization as well as a methodology for computer programming. It applies to issues one can break down into either overlapping subproblems or optimum substructures.</p><p><br></p><p>When a more extensive set of equations is broken down into smaller groups of equations\x2C overlapping subproblems are referred to as equations that reuse portions of the smaller equations several times to arrive at a solution.</p><p><br></p><p>On the other hand\x2C optimum substructures locate the best solution to an issue\x2C then build the solution that provides the best results overall. This is how they solve problems. When a vast issue is split down into its constituent parts\x2C a computer will apply a mathematical algorithm to determine which elements have the most desirable solution. Then\x2C it takes the solutions to the more minor problems and utilizes them to get the optimal solution to the initial\x2C more involved issue.</p><p><br></p><p>This technique solves problems by breaking them into smaller\x2C overlapping subproblems. The results are then stored in a table to be reused so the same problem will not have to be computed again.&nbsp;</p><p><br></p><p>For example\x2C when using the dynamic programming technique to figure out all possible results from a set of numbers\x2C the first time the results are calculated\x2C they are saved and put into the equation later instead of being calculated again. So\x2C when dealing with long\x2C complicated equations and processes\x2C it saves time and makes solutions faster by doing less work.</p><p><br></p><p>The dynamic programming algorithm tries to find the shortest way to a solution when solving a problem. It does this by going from the top down or the bottom up. The top-down method solves equations by breaking them into smaller ones and reusing the answers when needed. The bottom-up approach solves equations by breaking them up into smaller ones\x2C then tries to solve the equation with the smallest mathematical value\x2C and then works its way up to the equation with the biggest value.</p><p><br></p><p>Using dynamic programming to solve problems is more effective than just trying things until they work. But it only helps with problems that one can break up into smaller equations that will be used again at some point.</p><p><br></p><p><strong>See More:&nbsp;<a href\x3D\"https://www.spiceworks.com/tech/devops/articles/what-is-serverless/\" rel\x3D\"noopener noreferrer\" target\x3D\"_blank\">What Is Serverless\? Definition\x2C Architecture\x2C Examples\x2C and Applications</a></strong></p><p><br></p><h3>Recursion vs. dynamic programming</h3><p>In computer science\x2C recursion is a crucial concept in which the solution to a problem depends on solutions to its smaller subproblems.&nbsp;</p><p><br></p><p>Meanwhile\x2C dynamic programming is an optimization technique for recursive solutions. It is the preferred technique for solving recursive functions that make repeated calls to the same inputs. A function is known as recursive if it calls itself during execution. This process can repeat itself several times before the solution is computed and can repeat forever if it lacks a base case to enable it to fulfill its computation and stop the execution.&nbsp;</p><p><br></p><p>However\x2C not all problems that use recursion can be solved by dynamic programming. Unless solutions to the subproblems overlap\x2C a recursion solution can only be arrived at using a divide-and-conquer method.</p><p><br></p><p>For example\x2C problems like merge\x2C sort\x2C and quick sort are not considered dynamic programming problems. This is because they involve putting together the best answers to subproblems that don\xE2\x80\x99t overlap.</p><p><br></p><p><strong>Drawbacks of recursion</strong></p><p>Recursion uses memory space less efficiently. Repeated function calls create entries for all the variables and constants in the function stack. As the values are kept there until the function returns\x2C there is always a limited amount of stack space in the system\x2C thus making less efficient use of memory space. Additionally\x2C a stack overflow error occurs if the recursive function requires more memory than is available in the stack.&nbsp;</p><p><br></p><p>Recursion is also relatively slow in comparison to iteration\x2C which uses loops. When a function is called\x2C there is an overhead of allocating space for the function and all its data in the function stack in recursion. This causes a slight delay in recursive functions.&nbsp;</p><p><br></p><h3>Where should dynamic programming be used\?</h3><p>Dynamic programming is used when one can break a problem into more minor issues that they can break down even further\x2C into even more minor problems. Additionally\x2C these subproblems have overlapped. That is\x2C they require previously calculated values to be recomputed. With dynamic programming\x2C the computed values are stored\x2C thus reducing the need for repeated calculations and saving time and providing faster solutions.&nbsp;</p><p><br></p><h2>How Does Dynamic Programming Work\?</h2><p>Dynamic programming works by breaking down complex problems into simpler subproblems. Then\x2C finding optimal solutions to these subproblems. Memorization is a method that saves the outcomes of these processes so that the corresponding answers do not need to be computed when they are later needed. Saving solutions save time on the computation of subproblems that have already been encountered.&nbsp;</p><p><br></p><p>Dynamic programming can be achieved using two approaches:</p><p><br></p><h3>1. Top-down approach</h3><p>In computer science\x2C problems are resolved by recursively formulating solutions\x2C employing the answers to the problems\xE2\x80\x99 subproblems. If the answers to the subproblems overlap\x2C they may be memoized or kept in a table for later use. The top-down approach follows the strategy of memorization. The memoization process is equivalent to adding the recursion and caching steps. The difference between recursion and caching is that recursion requires calling the function directly\x2C whereas caching requires preserving the intermediate results.</p><p><br></p><p>The top-down strategy has many benefits\x2C including the following:</p><p><br></p><p>The top-down approach is easy to understand and implement. In this approach\x2C problems are broken down into smaller parts\x2C which help users identify what needs to be done. With each step\x2C more significant\x2C more complex problems become smaller\x2C less complicated\x2C and\x2C therefore\x2C easier to solve. Some parts may even be reusable for the same problem.</p><p>It allows for subproblems to be solved upon request. The top-down approach will enable problems to be broken down into smaller parts and their solutions stored for reuse. Users can then query solutions for each part.&nbsp;</p><p>It is also easier to debug. Segmenting problems into small parts allows users to follow the solution quickly and determine where an error might have occurred.&nbsp;</p><p><br></p><p>Disadvantages of the top-down approach include:</p><p><br></p><p>The top-down approach uses the recursion technique\x2C which occupies more memory in the call stack. This leads to reduced overall performance. Additionally\x2C when the recursion is too deep\x2C a stack overflow occurs.&nbsp;</p><p><br></p><h3>2. Bottom-up approach</h3><p>In the bottom-up method\x2C once a solution to a problem is written in terms of its subproblems in a way that loops back on itself\x2C users can rewrite the problem by solving the smaller subproblems first and then using their solutions to solve the larger subproblems.&nbsp;</p><p>Unlike the top-down approach\x2C the bottom-up approach removes the recursion. Thus\x2C there is neither stack overflow nor overhead from the recursive functions. It also allows for saving memory space. Removing recursion decreases the time complexity of recursion due to recalculating the same values.&nbsp;</p><p><br></p><p>The advantages of the bottom-up approach include the following:</p><p><br></p><p>It makes decisions about small reusable subproblems and then decides how they will be put together to create a large problem.&nbsp;</p><p>It removes recursion\x2C thus promoting the efficient use of memory space. Additionally\x2C this also leads to a reduction in timing complexity.&nbsp;</p><p><br></p><p><strong>See More:&nbsp;<a href\x3D\"https://www.spiceworks.com/tech/devops/articles/devops-roadmap-guide/\" rel\x3D\"noopener noreferrer\" target\x3D\"_blank\">DevOps Roadmap: 7-Step Complete Guide</a></strong></p><p><br></p><h3>Signs of dynamic programming suitability</h3><p>Dynamic programming solves complex problems by breaking them up into smaller ones using recursion and storing the answers so they don\xE2\x80\x99t have to be worked out again. It isn\xE2\x80\x99t practical when there aren\xE2\x80\x99t any problems that overlap because it doesn\xE2\x80\x99t make sense to store solutions to the issues that won\xE2\x80\x99t be needed again.</p><p>Two main signs are that one can solve a problem with dynamic programming: subproblems that overlap and the best possible substructure.</p><p><br></p><p><strong>Overlapping subproblems</strong></p><p>When the answers to the same subproblem are needed more than once to solve the main problem\x2C we say that the subproblems overlap. In overlapping issues\x2C solutions are put into a table so developers can use them repeatedly instead of recalculating them. The recursive program for the Fibonacci numbers has several subproblems that overlap\x2C but a binary search doesn\xE2\x80\x99t have any subproblems that overlap.</p><p><br></p><p>A binary search is solved using the divide and conquer technique. Every time\x2C the subproblems have a unique array to find the value. Thus\x2C binary search lacks the overlapping property.&nbsp;</p><p><br></p><p>For example\x2C when finding the nth Fibonacci number\x2C the problem F(n) is broken down into finding F(n-1) and F. (n-2). You can break down F(n-1) even further into a subproblem that has to do with F. (n-2).In this scenario\x2C F(n-2) is reused\x2C and thus\x2C the Fibonacci sequence can be said to exhibit overlapping properties.&nbsp;</p><p><br></p><p><strong>Optimal substructure</strong></p><p>The optimal substructure property of a problem says that you can find the best answer to the problem by taking the best solutions to its subproblems and putting them together. Most of the time\x2C recursion explains how these optimal substructures work.</p><p>This property is not exclusive to dynamic programming alone\x2C as several problems consist of optimal substructures. However\x2C most of them lack overlapping issues. So\x2C they can\xE2\x80\x99t be called problems with dynamic programming.</p><p><br></p><p>You can use it to find the shortest route between two points. For example\x2C if a node p is on the shortest path from a source node t to a destination node w\x2C then the shortest path from t to w is the sum of the shortest paths from t to p and from p to w.</p><p><br></p><p>Examples of problems with optimal substructures include the longest increasing subsequence\x2C longest palindromic substring\x2C and longest common subsequence problem. Examples of problems without optimal substructures include the most extended path problem and the addition-chain exponentiation.&nbsp;</p><p><br></p><h3>Understanding the Longest Common Subsequence concept in dynamic programming</h3><p>In dynamic programming\x2C the phrase \xE2\x80\x9Clargest common subsequence\xE2\x80\x9D (LCS) refers to the subsequence that is shared by all of the supplied sequences and is the one that is the longest. It is different from the challenge of finding the longest common substring in that the components of the LCS do not need to occupy consecutive locations within the original sequences to be considered part of that problem.</p><p><br></p><p>The LCS is characterized by an optimal substructure and overlapping subproblem properties. This indicates that the issue may be split into many less complex sub-issues and worked on individually until a solution is found. The solutions to higher-level subproblems are often reused in lower-level subproblems\x2C thus\x2C overlapping subproblems.&nbsp;</p><p><br></p><p>Therefore\x2C when solving an LCS problem\x2C it is more efficient to use a dynamic algorithm than a recursive algorithm. Dynamic programming stores the results of each function call so that it can be used in future calls\x2C thus minimizing the need for redundant calls.&nbsp;</p><p>For instance\x2C consider the sequences (MNOP) and (MONMP). They have five length-2 common subsequences (MN)\x2C (MO)\x2C (MP)\x2C (NP)\x2C and (OP); two length-3 common subsequences (MNP) and (MOP); MNP and no longer frequent subsequences (MOP). Consequently\x2C (MNP) and (MOP) are the largest shared subsequences. LCS can be applied in bioinformatics to the process of genome sequencing.</p><p><br></p><p><strong>See More:&nbsp;<a href\x3D\"https://www.spiceworks.com/tech/devops/articles/what-is-jenkins/\" rel\x3D\"noopener noreferrer\" target\x3D\"_blank\">What Is Jenkins\? Working\x2C Uses\x2C Pipelines\x2C and Features</a></strong></p><p><br></p><h2>Dynamic Programming Algorithms</h2><p>When dynamic programming algorithms are executed\x2C they solve a problem by segmenting it into smaller parts until a solution arrives. They perform these tasks by finding the shortest path. Some of the primary dynamic programming algorithms in use are:</p><h3><br></h3><h3>1. Greedy algorithms</h3><p>An example of dynamic programming algorithms\x2C greedy algorithms are also optimization tools. The method solves a challenge by searching for optimum solutions to the subproblems and combining the findings of these subproblems to get the most optimal answer.&nbsp;</p><p>Conversely\x2C when greedy algorithms solve a problem\x2C they look for a locally optimum solution to find a global optimum. They make a guess that looks optimum at the time but does not guarantee a globally optimum solution. This could end up becoming costly down the road.&nbsp;</p><p><br></p><h3>2. Floyd-Warshall algorithm</h3><p>The Floyd-Warshall method uses a technique of dynamic programming to locate the shortest pathways. It determines the shortest route across all pairings of vertices in a graph with weights. Both directed and undirected weighted graphs can use it.</p><p>This program compares each pair of vertices\xE2\x80\x99 potential routes through the graph. It gradually optimizes an estimate of the shortest route between two vertices to determine the shortest distance between two vertices in a chart. With simple modifications to it\x2C one can reconstruct the paths.&nbsp;</p><p><br></p><p>This method for dynamic programming contains two subtypes:&nbsp;</p><p><br></p><p><strong>Behavior with negative cycles:&nbsp;</strong>Users can use the Floyd-Warshall algorithm to find negative cycles. You can do this by inspecting the diagonal path matrix for a negative number that would indicate the graph contains one negative cycle. In a negative cycle\x2C the sum of the edges is a negative value; thus\x2C there cannot be a shortest path between any pair of vertices. Exponentially huge numbers are generated if a negative cycle occurs during algorithm execution.</p><p><br></p><p><strong>Time complexity:&nbsp;</strong>The Floyd-Warshall algorithm has three loops\x2C each with constant complexity. As a result\x2C the Floyd-Warshall complexity has a time complexity of O(n3). Wherein n represents the number of network nodes.&nbsp;</p><p><br></p><h3>3. Bellman Ford algorithm</h3><p>The Bellman-Ford Algorithm determines the shortest route from a particular source vertex to every other weighted digraph vertices. The Bellman-Ford algorithm can handle graphs where some of the edge weights are negative numbers and produce a correct answer\x2C unlike Dijkstra\xE2\x80\x99s algorithm\x2C which does not confirm whether it makes the correct answer. However\x2C it is much slower than Dijkstra\xE2\x80\x99s algorithm.&nbsp;</p><p><br></p><p>The Bellman-Ford algorithm works by relaxation; that is\x2C it gives approximate distances that better ones continuously replace until a solution is reached. The approximate distances are usually overestimated compared to the distance between the vertices. The replacement values reflect the minimum old value and the length of a newly found path.&nbsp;</p><p>This algorithm terminates upon finding a negative cycle and thus can be applied to cycle-canceling techniques in network flow analysis.&nbsp;</p><p><br></p><p><strong>See More:&nbsp;<a href\x3D\"https://www.spiceworks.com/tech/devops/articles/devops-automation-tools/\" rel\x3D\"noopener noreferrer\" target\x3D\"_blank\">Top 10 DevOps Automation Tools in 2021</a></strong></p><p><br></p><h2>Examples of Dynamic Programming&nbsp;</h2><p>Here are a few examples of how one may use dynamic programming:</p><p><br></p><h3>1. Identifying the number of ways to cover a distance</h3><p>Some recursive functions are invoked three times in the recursion technique\x2C indicating the overlapping subproblem characteristic required to calculate issues that use the dynamic programming methodology.</p><p>Using the top-down technique\x2C just store the value in a HashMap while retaining the recursive structure\x2C then return the value store without calculating each time the function is invoked. Utilize an extra space of dimension n when employing the bottom-up method and compute the values of states beginning with 1\x2C 2\x2C\xE2\x80\xA6\x2C n\x2C i.e.\x2C compute the values of I i+1 and i+2 and then apply them to determine the value of i+3.&nbsp;</p><p><br></p><h3>2. Identifying the optimal strategy of a game</h3><p>To identify the optimal strategy of a game or&nbsp;<a href\x3D\"https://www.spiceworks.com/tech/devops/articles/what-is-gamification/\" rel\x3D\"noopener noreferrer\" target\x3D\"_blank\">gamified experience\x2C</a>&nbsp;let\xE2\x80\x99s consider the \xE2\x80\x9Ccoins in a line\xE2\x80\x9D game. The memoization technique is used to compute the maximum value of coins taken by player A for coins numbered h to k\x2C assuming player B plays optimally (Mh\x2Ck). To find out each player\xE2\x80\x99s strategy\x2C assign values to the coin they pick and the value of the opponent\xE2\x80\x99s coin. After computation\x2C the optimal design for the game is determined by observing the Mh\x2Ck&nbsp;value for both players if player A chooses coin h or k.&nbsp;</p><p><br></p><h3>3. Counting the number of possible outcomes of a particular die roll&nbsp;</h3><p>With an integer M\x2C the aim is to determine the number of approaches to obtain the sum M by tossing dice repeatedly. The partial recursion tree\x2C where M\x3D8\x2C provides overlapping subproblems when using the recursion method. By using dynamic programming\x2C one can optimize the recursive method. One can use an array to store values after computation for reuse. In this way\x2C the algorithm takes significantly less time to run with time complex:&nbsp;O(t * n * m)\x2C with t being the number of faces\x2C n being the number of dice\x2C and m being the given sum.</p><p><br></p><p><strong>See More:&nbsp;<a href\x3D\"https://www.spiceworks.com/tech/devops/articles/devops-vs-agile/\" rel\x3D\"noopener noreferrer\" target\x3D\"_blank\">DevOps vs. Agile Methodology: Key Differences and Similarities&nbsp;</a></strong></p><p><br></p><h3>Takeaway</h3><p>Dynamic programming is among the more advanced skills one must learn as a programmer or&nbsp;<a href\x3D\"https://www.spiceworks.com/tech/devops/articles/devops-engineer/\" rel\x3D\"noopener noreferrer\" target\x3D\"_blank\">DevOps engineer</a>\x2C mainly if you specialize in&nbsp;<a href\x3D\"https://www.spiceworks.com/tech/artificial-intelligence/articles/top-python-machine-learning-libraries/\" rel\x3D\"noopener noreferrer\" target\x3D\"_blank\">Python</a>. It is a relatively simple way to solve complex algorithmic problems and a skill you can apply to virtually any language or use case. For example\x2C the viral game\x2C Wordle\x2C follows dynamic programming principles\x2C and users can train an algorithm to resolve it by finding the most optimal combination of alphabets. In other words\x2C the skill has versatile applications and must be part of every DevOps learning kit.&nbsp;</p>", Scope = Public
+	#tag EndConstant
+
+	#tag Constant, Name = K_TEST_IMPORT_JSON, Type = String, Dynamic = False, Default = \"{\"settings\":{\"EditMode\":true\x2C\"ToolbarBorder\":false\x2C\"Toolbar\":true\x2C\"EditorReady\":true\x2C\"AllowAlignment\":false\x2C\"AllowAutoDeactivate\":true\x2C\"AllowBold\":true\x2C\"AllowBulletins\":true\x2C\"AllowCleanFormatting\":false\x2C\"AllowCode\":false\x2C\"AllowFontSelection\":true\x2C\"AllowHeaders\":true\x2C\"AllowImage\":false\x2C\"AllowIndentation\":false\x2C\"AllowItalic\":true\x2C\"AllowLinks\":true\x2C\"AllowList\":false\x2C\"AllowQuote\":true\x2C\"AllowStrikeThrough\":false\x2C\"AllowSubscript\":false\x2C\"AllowTextBackgroundColor\":false\x2C\"AllowTextColor\":true\x2C\"AllowTextDirection\":false\x2C\"AllowTextDragDrop\":false\x2C\"AllowUnderline\":true\x2C\"AutoFormatLinks\":true\x2C\"BlockquoteIndentation\":0\x2C\"EnableRightClick\":false\x2C\"FontSize\":16\x2C\"KeyboardBindStyles\":true\x2C\"PlaceHolder\":\"Start typing here to create a new document...\"\x2C\"QuoteTextBold\":false\x2C\"QuoteTextItalic\":true\x2C\"Tooltip\":\"\"}\x2C\"properties\":{\"bold\":\"true\"\x2C\"italic\":\"true\"\x2C\"link\":\"true\"\x2C\"underline\":\"true\"}\x2C\"css\":{\"body|background-color\":\"#FFFFFF\"\x2C\".ql-snow .ql-picker-options|background-color\":\"#FFFFFF\"\x2C\".ql-toolbar.ql-snow|background-color\":\"#FFFFFF\"\x2C\".ql-container|color\":\"#000000 !important\"\x2C\".ql-editor|color\":\"#000000\"\x2C\".ql-editor.ql-blank::before|color\":\"#808080 !important\"\x2C\".ql-editor em|color\":\"#919191\"\x2C\"::selection|background-color\":\"#FDE9BF\"\x2C\"::selection|color\":\"#000000\"\x2C\".ql-editor a|color\":\"#FF8000\"\x2C\".ql-editor blockquote|border-left\":\"4px solid #FFFFFF !important\"\x2C\".ql-bubble .ql-editor blockquote |border-left\":\"4px solid #FFFFFF !important\"\x2C\".ql-mention-list-item.selected|background-color\":\"#808080\"\x2C\".ql-mention-list-container|background-color\":\"#FFFFFF\"\x2C\".ql-mention-list-item|color\":\"#555555\"\x2C\".ql-mention-list-container|border\":\"1px solid #808080\"\x2C\".ql-mention-list-item:hover|color\":\"#000000\"\x2C\".ql-editor blockquote|font-weight\":\"normal\"\x2C\".ql-editor blockquote|font-style\":\"italic\"\x2C\".ql-editor blockquote|color\":\"#919191\"\x2C\".mention|color\":\"#000000 !important\"\x2C\".mention|font-weight\":\"bold\"\x2C\".mention|font-style\":\"normal\"\x2C\".ql-editor em|font-weight\":\"normal\"\x2C\".ql-toolbar.ql-snow|display\":\"block\"\x2C\".ql-container|height\":\"calc(100%-42px)\"\x2C\".ql-toolbar.ql-snow|border\":\"0px\"\x2C\".ql-toolbar.ql-snow|bordor-bottom\":\"none\"\x2C\".ql-toolbar.ql-snow|text-align\":\"left\"\x2C\".ql-container|font-size\":\"16px !important\"\x2C\"blockquote|margin-left\":\"0px\"}\x2C\"tags\":{\"ToolbarAlignment\":1}\x2C\"colorScheme\":{\"Background\":\"&h00E4FBBD\"\x2C\"BackgroundSelection\":\"&hFF7BAE37\"\x2C\"Link\":\"&h000000FF\"\x2C\"Mention\":\"&h00FFFFFF\"\x2C\"MentionBackground\":\"&h00FFFFFF\"\x2C\"MentionItemText\":\"&h00FFFFFF\"\x2C\"Placeholder\":\"&hFF35374E\"\x2C\"Scrollbar\":\"&h00000000\"\x2C\"ScrollbarHover\":\"&h00000000\"\x2C\"Text\":\"&hFF35374E\"\x2C\"TextItalic\":\"&hFF35374E\"\x2C\"TextSelection\":\"&hFFF1F1F1\"\x2C\"Toolbar\":\"&hFF35374E\"\x2C\"ToolbarHover\":\"&hFF010101\"}\x2C\"mentions\":{\"braces\":[\"Full name\"\x2C\"Phone\"\x2C\"Profession\"\x2C\"Title\"\x2C\"Workplace\"]\x2C\"brackets\":[\"Address\"\x2C\"Age\"\x2C\"Birthyear\"\x2C\"Gender\"\x2C\"Patient\"\x2C\"Phone\"\x2C\"SSID\"]\x2C\"hash\":[\"Azithromycin 500mg 1 tablet 1x a day for 3 days\"\x2C\"Blood culturing if fever > 38.5\xC2\xB0\"\x2C\"Doxylin 1 tablet 2x a day for 2 weeks\"\x2C\"Doxylin 100mg\x2C 2 tablets the first day\x2C then one a day\"\x2C\"General advice\"\x2C\"Paracetamol 1g for fever\"\x2C\"Visit again if symptoms worsen\"\x2C\"Vitals every 4 hours\"\x2C\"Vitals every 8 hours\"\x2C\"Vitals once per shift\"]\x2C\"dollar\":[\"Bp\"\x2C\"Kg\"\x2C\"P\"\x2C\"RR\"\x2C\"SaO2\"\x2C\"T\"]\x2C\"percent\":[\"B12\"\x2C\"Ca\"\x2C\"Crp\"\x2C\"D-Vitamin\"\x2C\"ESR\"\x2C\"K\"\x2C\"Krea\"\x2C\"LEU\"\x2C\"Na\"\x2C\"P\"\x2C\"T4\"\x2C\"TSH\"]}\x2C\"document\":{\"title\":\"RTEdit.debug\"\x2C\"data\":\"<p>This\xC2\xA0is\xC2\xA0a\xC2\xA0demo\xC2\xA0when\xC2\xA0data\xC2\xA0is\xC2\xA0imported\xC2\xA0to\xC2\xA0the\xC2\xA0control\xC2\xA0using\xC2\xA0<strong>ImportDocumentFromJSON.\xC2\xA0</strong>The\xC2\xA0function\xC2\xA0allows\xC2\xA0you\xC2\xA0to\xC2\xA0save\xC2\xA0/\xC2\xA0load\xC2\xA0your\xC2\xA0data\x2C\xC2\xA0mention\xC2\xA0values\xC2\xA0/\xC2\xA0color\xC2\xA0scheme\xC2\xA0and\xC2\xA0all\xC2\xA0document\xC2\xA0settings\xC2\xA0with\xC2\xA0a\xC2\xA0single\xC2\xA0import\xC2\xA0/\xC2\xA0export\xC2\xA0function.</p><p></p><table style\x3D\\\"width: 571px;\\\" class\x3D\\\"ql-table-better\\\"><temporary class\x3D\\\"ql-table-temporary\\\" style\x3D\\\"width: 571px;\\\" data-class\x3D\\\"ql-table-better\\\"></temporary><tbody><tr><td data-row\x3D\\\"row-9bdx\\\" width\x3D\\\"72\\\" height\x3D\\\"39\\\" style\x3D\\\"height: 39px; border-color: #008000; background-color: #99e64d; \\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-b41n\\\"><strong style\x3D\\\"background-color: rgb(153\x2C 230\x2C 77);\\\">Version</strong></p></td><td data-row\x3D\\\"row-9bdx\\\" width\x3D\\\"72\\\" height\x3D\\\"39\\\" style\x3D\\\"height: 39px; border-color: #008000; background-color: #99e64d; \\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-8oi5\\\"><strong style\x3D\\\"background-color: rgb(153\x2C 230\x2C 77);\\\">Feature</strong></p></td><td data-row\x3D\\\"row-9bdx\\\" width\x3D\\\"343\\\" height\x3D\\\"39\\\" style\x3D\\\"height: 39px; border-color: rgb(0\x2C 128\x2C 0); background-color: rgb(153\x2C 230\x2C 77); width: 343px;\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-cy1w\\\"><strong style\x3D\\\"background-color: rgb(153\x2C 230\x2C 77);\\\">Description</strong></p></td></tr><tr><td data-row\x3D\\\"row-mqmw\\\" width\x3D\\\"72\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-12ac\\\">1.7</p></td><td data-row\x3D\\\"row-mqmw\\\" width\x3D\\\"72\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-lzht\\\">AllowFontSelection</p></td><td data-row\x3D\\\"row-mqmw\\\" width\x3D\\\"343\\\" style\x3D\\\"width: 343px;\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-mg1x\\\"><em>Is now True by default</em></p></td></tr><tr><td data-row\x3D\\\"row-719f\\\" height\x3D\\\"24\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-vigw\\\">1.7</p></td><td data-row\x3D\\\"row-719f\\\" height\x3D\\\"24\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-a7lb\\\">More Fonts</p></td><td data-row\x3D\\\"row-719f\\\" height\x3D\\\"24\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-l4l2\\\"><em>RTEdit now shipw with 15 fonts\x2C instead of 3.</em></p></td></tr><tr><td data-row\x3D\\\"row-n4q7\\\" height\x3D\\\"24\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-s1ym\\\">1.7</p></td><td data-row\x3D\\\"row-n4q7\\\" height\x3D\\\"24\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-mcjb\\\">Faster loading</p></td><td data-row\x3D\\\"row-n4q7\\\" height\x3D\\\"24\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-e4ab\\\"><em>Initialize process (and function\x2C is now 50% faster with improved Javascript processing.</em></p></td></tr><tr><td data-row\x3D\\\"row-830y\\\" height\x3D\\\"24\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-24vq\\\">1.7</p></td><td data-row\x3D\\\"row-830y\\\" height\x3D\\\"24\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-4oul\\\">TableInsert</p></td><td data-row\x3D\\\"row-830y\\\" height\x3D\\\"24\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-y5qt\\\"><em>RTEdit.TableInsert(Rows\x2CColumns)</em></p></td></tr><tr><td data-row\x3D\\\"row-nr5v\\\" height\x3D\\\"24\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-2avj\\\">1.7</p></td><td data-row\x3D\\\"row-nr5v\\\" height\x3D\\\"24\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-unlm\\\">Tabledelete</p></td><td data-row\x3D\\\"row-nr5v\\\" height\x3D\\\"24\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-k61r\\\"><em>Deletes the selected table</em></p></td></tr><tr><td data-row\x3D\\\"row-br5r\\\" height\x3D\\\"24\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-309f\\\">1.7</p></td><td data-row\x3D\\\"row-br5r\\\" height\x3D\\\"24\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-6non\\\">MouseRightClick</p></td><td data-row\x3D\\\"row-br5r\\\" height\x3D\\\"24\\\" class\x3D\\\"\\\"><p class\x3D\\\"ql-table-block\\\" data-cell\x3D\\\"cell-e44k\\\"><em>Now contains two arguments\x2C event and parameters() which allow you to detect what the selected element is\x2C for example a table.</em></p></td></tr></tbody></table><p></p><p><strong>RTEdit\xC2\xA0on\xC2\xA0<a href\x3D\\\"https://github.com/SveinnRunar/RTEdit-for-Xojo\\\" rel\x3D\\\"noopener noreferrer\\\" target\x3D\\\"_blank\\\">GitHub</a></strong></p><table style\x3D\\\"width: 681px;\\\" class\x3D\\\"ql-table-better\\\"><temporary class\x3D\\\"ql-table-temporary\\\" style\x3D\\\"width: 681px;\\\" data-class\x3D\\\"ql-table-better\\\">L</temporary></table><p></p>\"}}", Scope = Public
 	#tag EndConstant
 
 
@@ -2506,7 +2558,7 @@ End
 #tag EndEvents
 #tag Events REdit
 	#tag Event
-		Sub MouseclickRight()
+		Sub MouseclickRight(Method As String, Parameters() As Variant)
 		  // Create the menu structure for our REdit popupmenu
 		  
 		  // Represents a single menu item
@@ -2590,14 +2642,16 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub Opening()
+		  // Recommended use is to apply all desired settings for RTEdit, in the opening event of the control.
+		  // Once the editor has initialized, the EditReady event is fired
+		  
 		  Initialize
 		  
 		End Sub
 	#tag EndEvent
 	#tag Event
 		Sub EditorReady()
-		  // This event is fired after the editor has fully initialized
-		  
+		  // This event is fired after the opening event
 		End Sub
 	#tag EndEvent
 	#tag Event
@@ -2649,7 +2703,7 @@ End
 #tag Events segThemes
 	#tag Event
 		Sub Pressed(segmentIndex As Integer)
-		  ChangeTheme(segmentIndex)
+		  UpdateStyling(segmentIndex)
 		  
 		End Sub
 	#tag EndEvent
@@ -2706,7 +2760,7 @@ End
 #tag Events chkKeyboardBinding
 	#tag Event
 		Sub ValueChanged()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  UpdateStyling(segThemes.SelectedSegmentIndex)
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2855,12 +2909,12 @@ End
 #tag Events btnExportDocumentAsJSON1
 	#tag Event
 		Sub Pressed()
-		  REdit.ImportDocumentFromJSON(tDebugCSS.Text, true, true, true, true, true, true)
+		  REdit.ImportDocumentFromJSON(K_TEST_IMPORT_JSON, true, true, true, true, true, true)
 		  
 		  blockControlUpdates = true
 		  
 		  // Show the scheme colors
-		  ShowSchemeColors
+		  DisplayThemeColors
 		  
 		  // Load the properties 
 		  chkBold.Value = REdit.AllowBold
@@ -2896,8 +2950,15 @@ End
 #tag Events btnApplyStyling
 	#tag Event
 		Sub Pressed()
-		  ChangeTheme(segThemes.SelectedSegmentIndex)
+		  UpdateStyling(segThemes.SelectedSegmentIndex)
 		  me.Enabled = False
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events chkTable
+	#tag Event
+		Sub ValueChanged()
+		  btnApplyStyling.Enabled = True
 		End Sub
 	#tag EndEvent
 #tag EndEvents

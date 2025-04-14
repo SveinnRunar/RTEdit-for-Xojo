@@ -10,7 +10,15 @@ Begin Menu MenuRTEdit
       Begin DesktopMenuItem mnuChatBotExample
          SpecialMenu = 0
          Index = -2147483648
-         Text = "ChatBot Example..."
+         Text = "ChatBot Demo..."
+         AutoEnabled = True
+         AutoEnable = True
+         Visible = True
+      End
+      Begin DesktopMenuItem mnuTableExample
+         SpecialMenu = 0
+         Index = -2147483648
+         Text = "Table Demo..."
          AutoEnabled = True
          AutoEnable = True
          Visible = True

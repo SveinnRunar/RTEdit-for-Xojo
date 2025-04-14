@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+   <key>CFBundleExecutable</key>
+   <string>RTEdit.debug</string>
+   <key>CFBundleName</key>
+   <string>RTEdit.debug</string>
+   <key>CFBundleIdentifier</key>
+   <string>com.rtedit.eldr</string>
+   <key>CFBundleInfoDictionaryVersion</key>
+   <string>6.0</string>
+   <key>CFBundleVersion</key>
+   <string>1.5.0.3.0</string>
+   <key>CFBundleDevelopmentRegion</key>
+   <string>en</string>
+   <key>CFBundlePackageType</key>
+   <string>APPL</string>
+   <key>CFBundleSignature</key>
+   <string>????</string>
+   <key>NSHumanReadableCopyright</key>
+   <string>MS Investments LLC 2005 - </string>
+   <key>CFBundleShortVersionString</key>
+   <string></string>
+   <key>CFBundleIconFile</key>
+   <string>App</string>
+   <key>LSMinimumSystemVersion</key>
+   <string>10.14</string>
+<key>NSHighResolutionCapable</key><true/>
+   <key>DTSDKBuild</key>
+   <string>20C63</string>
+<key>CFBundleSupportedPlatforms</key><array><string>MacOSX</string></array>
+</dict>
+</plist>

@@ -24,6 +24,8 @@ Inherits DesktopApplication
 		    
 		  end if
 		  
+		  app.OpenAIKey = ""
+		  
 		End Sub
 	#tag EndMethod
 
@@ -222,6 +224,14 @@ Inherits DesktopApplication
 			Group="Behavior"
 			InitialValue=""
 			Type="Integer"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="OpenAIKey"
+			Visible=false
+			Group="Behavior"
+			InitialValue=""
+			Type="String"
 			EditorType=""
 		#tag EndViewProperty
 	#tag EndViewBehavior

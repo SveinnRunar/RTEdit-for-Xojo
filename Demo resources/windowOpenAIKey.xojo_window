@@ -149,8 +149,6 @@ End
 
 #tag EndWindowCode
 
-#tag Events textOpenAIKey
-#tag EndEvents
 #tag Events bntSaveAPIKey
 	#tag Event
 		Sub Pressed()

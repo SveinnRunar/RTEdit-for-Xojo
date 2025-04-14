@@ -71,10 +71,12 @@ Begin DesktopWindow windowChatBotExample
       AllowItalic     =   True
       AllowLinks      =   True
       AllowList       =   True
+      AllowMentions   =   False
       AllowQuote      =   True
       AllowStrikeThrough=   True
       AllowSubscript  =   True
       AllowSuperscript=   True
+      AllowTables     =   True
       AllowTabs       =   False
       AllowTextBackgroundColor=   True
       AllowTextColor  =   True
@@ -85,7 +87,6 @@ Begin DesktopWindow windowChatBotExample
       AutoInitialize  =   True
       Backdrop        =   0
       BackgroundColor =   &cFFFFFF
-      bEnableRightClicking=   True
       BlockquoteIndentation=   0
       ColorBackground =   &cFFFFFF00
       ColorBackgroundSelection=   &c00000000
@@ -126,7 +127,6 @@ Begin DesktopWindow windowChatBotExample
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   True
-      MentionsEnabled =   False
       MentionTextBold =   False
       MentionTextItalic=   False
       pauseDocumentEvents=   False
