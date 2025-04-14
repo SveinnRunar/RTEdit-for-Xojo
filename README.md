@@ -24,6 +24,7 @@ AllowQuote
 AllowStrikeThrough
 AllowSubscript
 AllowSuperscript
+AllowTables
 AllowTextBackgroundColor
 AllowTextColor
 AllowTextDirection
@@ -72,6 +73,8 @@ NewDocument
 RemoveFocus
 SaveColorsAsScheme
 SelectAll
+TableDelete
+TableInsert
 </pre><h3>Other</h3><pre data-language="plain">
 AddMention
 ClipboardPaste
