@@ -31,6 +31,7 @@ AllowTextDirection
 AllowTextDragDrop
 AllowUnderline
 AllowVariables
+BlockQuoteIndentation
 TableLabelBackground
 TableLabelBorder
 TableLabelCancel 
@@ -84,9 +85,12 @@ VariablesTextItalic
 </pre><p></p><h3>Colors</h3><pre data-language="plain">
 ColorBackground
 ColorBackgroundSelection
+ColorBlockQuote
+ColorBlockQuoteLine
+ColorCodeBlock
+ColorCodeBlockBackground
 Colorlink
 ColorPlaceholder
-ColorQuote
 ColorScrollbar
 ColorScrollbarHover
 ColorText
@@ -97,8 +101,12 @@ ColorToolbarHover
 ColorVariables
 ColorVariablesPopupBackground
 ColorVariablesPopupBackgroundSelected
+ColorVariablesPopupScrollbarBackground
+ColorVariablesPopupScrollbarThumb
+ColorVariablesPopupScrollbarThumbHover
 ColorVariablesPopupText
 ColorVariablesPopupTextHover
+ColorVariablesText  
 </pre><h3>Other</h3><pre data-language="plain">
 Document
 EnableRightClick
