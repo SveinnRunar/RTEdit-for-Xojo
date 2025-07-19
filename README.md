@@ -7,7 +7,15 @@ REditor.Initialize
 </pre>
 <p>Introduction & showcase video https://www.youtube.com/watch?v=j4tDSoc2MWk</p>
 <p>Below is a list of its main properties, methods, and events.</p>
-<h2></h2><h2>Properties</h2><h3>Formatting &amp; Toolbar buttons</h3><pre data-language="plain">
+<h2></h2><h2>Properties</h2>
+<h3>Modules</h3><pre data-language="plain">
+AllowTables
+AllowTextDragDrop
+AllowVariables
+AutoFormatLinks
+KeyboardBindStyles
+</pre>
+<h3>Formatting &amp; Toolbar buttons</h3><pre data-language="plain">
 AllowAlignment
 AllowBold
 AllowBulletins
@@ -28,21 +36,32 @@ AllowTextColor
 AllowTextDirection
 AllowTextDragDrop
 AllowUnderline
+AllowVideo
 </pre><p></p><h3>Colors</h3><pre data-language="plain">
 ColorBackground
 ColorBackgroundSelection
+ColorBlockQuote
+ColorBlockQuoteLine
+ColorCodeBlock
+ColorCodeBlockBackground
 Colorlink
-ColorMention
-ColorMentionBackground
 ColorPlaceholder
-ColorQuote
 ColorScrollbar
 ColorScrollbarHover
 ColorText
 ColorTextItalic
 ColorTextSelection
 ColorToolbar
+ColorToolbarDisabled
 ColorToolbarHover
+ColorVariablesPopupBackground
+ColorVariablesPopupBackgroundSelected
+ColorVariablesPopupScrollbarBackground
+ColorVariablesPopupScrollbarThumb
+ColorVariablesPopupScrollbarThumbHover
+ColorVariablesPopupText
+ColorVariablesPopupTextHover
+ColorVariablesText
 </pre><h3>Other</h3><pre data-language="plain">
 Document
 EnableRightClick
@@ -63,6 +82,7 @@ getDocumentLength
 getDocumentMentions
 getDocumentText
 ImportDocumentFromJSON
+InsertVariable
 NewDocument
 RemoveFocus
 SaveColorsAsScheme
