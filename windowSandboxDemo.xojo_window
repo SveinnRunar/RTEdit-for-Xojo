@@ -257,7 +257,7 @@ Begin DesktopWindow windowSandboxDemo
       LockRight       =   True
       LockTop         =   True
       Scope           =   0
-      SelectedRowIndex=   3
+      SelectedRowIndex=   0
       TabIndex        =   17
       TabPanelIndex   =   0
       TabStop         =   True
