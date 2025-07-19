@@ -90,11 +90,13 @@ RemoveFocus
 SaveColorsAsScheme
 SelectAll
 </pre><h3>Other</h3><pre data-language="plain">
+AppendText
 ClipboardPaste
 Close
 CopySelectionToClipboard
 PrintDocument
 RetrieveValue
+ScrollToBottom
 ScrollToTop
 StoreValue
 VariablesAt
