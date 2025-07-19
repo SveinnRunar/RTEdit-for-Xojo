@@ -73,6 +73,8 @@ Toolbar
 ToolbarAlignment
 ToolbarBackground
 UserGuide
+VariablesTextBold
+VariablesTextItalic
 Version
 </pre><p></p><h2>Methods</h2><p><strong>Getting document data</strong></p><pre data-language="plain">
 AutoInitialize
@@ -88,7 +90,6 @@ RemoveFocus
 SaveColorsAsScheme
 SelectAll
 </pre><h3>Other</h3><pre data-language="plain">
-AddMention
 ClipboardPaste
 Close
 CopySelectionToClipboard
@@ -96,6 +97,12 @@ PrintDocument
 RetrieveValue
 ScrollToTop
 StoreValue
+VariablesAt
+VariablesBraces
+VariablesBrackets
+VariablesDollar
+VariablesHash
+VariablesPercent
 UpdateMentionValue
 </pre><p></p><h2>Events</h2><p><strong>Some customized events include</strong></p><pre data-language="plain">
 ClipboardPaste
