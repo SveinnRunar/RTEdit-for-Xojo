@@ -1,5 +1,5 @@
 #tag DesktopWindow
-Begin DesktopWindow windowOpenAIKey
+Begin DesktopWindow windowBasicDemo
    Backdrop        =   0
    BackgroundColor =   &cFFFFFF
    Composite       =   False
@@ -8,10 +8,10 @@ Begin DesktopWindow windowOpenAIKey
    HasBackgroundColor=   False
    HasCloseButton  =   True
    HasFullScreenButton=   False
-   HasMaximizeButton=   False
-   HasMinimizeButton=   False
+   HasMaximizeButton=   True
+   HasMinimizeButton=   True
    HasTitleBar     =   True
-   Height          =   196
+   Height          =   400
    ImplicitInstance=   True
    MacProcID       =   0
    MaximumHeight   =   32000
@@ -20,154 +20,166 @@ Begin DesktopWindow windowOpenAIKey
    MenuBarVisible  =   False
    MinimumHeight   =   64
    MinimumWidth    =   64
-   Resizeable      =   False
-   Title           =   "OpenAI Key"
+   Resizeable      =   True
+   Title           =   "RTEdit - Basic Configuration"
    Type            =   0
    Visible         =   True
-   Width           =   506
-   Begin DesktopLabel labelOpenAIKey
+   Width           =   600
+   Begin RTEdit RTEdit1
+      AllowAlignment  =   True
       AllowAutoDeactivate=   True
-      Bold            =   False
-      Enabled         =   True
-      FontName        =   "System"
-      FontSize        =   0.0
-      FontUnit        =   0
-      Height          =   20
-      Index           =   -2147483648
-      Italic          =   False
-      Left            =   20
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   True
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   2
-      Selectable      =   False
-      TabIndex        =   1
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "Rigth click the TextArea below and paste your OpenAI key"
-      TextAlignment   =   2
-      TextColor       =   &c000000
-      Tooltip         =   ""
-      Top             =   20
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   466
-   End
-   Begin DesktopTextArea textOpenAIKey
-      AllowAutoDeactivate=   True
-      AllowFocusRing  =   True
-      AllowSpellChecking=   True
-      AllowStyledText =   True
+      AllowBold       =   True
+      AllowBulletins  =   True
+      AllowCleanFormatting=   False
+      AllowCode       =   False
+      AllowFocus      =   True
+      AllowFocusRing  =   False
+      AllowFontSelection=   False
+      AllowHeaders    =   True
+      AllowImage      =   False
+      AllowIndentation=   False
+      AllowItalic     =   True
+      AllowLinks      =   True
+      AllowList       =   True
+      AllowQuote      =   True
+      AllowStrikeThrough=   False
+      AllowSubscript  =   False
+      AllowSuperscript=   False
+      AllowTables     =   False
       AllowTabs       =   False
+      AllowTextBackgroundColor=   False
+      AllowTextColor  =   True
+      AllowTextDirection=   False
+      AllowTextDragDrop=   True
+      AllowUnderline  =   True
+      AllowVariables  =   False
+      AllowVideo      =   False
+      AutoFormatLinks =   True
+      AutoInitialize  =   True
+      Backdrop        =   0
       BackgroundColor =   &cFFFFFF
-      Bold            =   False
+      BlockQuoteIndentation=   0
+      ColorBackground =   &cFFFFFF00
+      ColorBackgroundSelection=   &cFFFC7900
+      ColorBlockQuote =   &c00000000
+      ColorBlockQuoteLine=   &cFFFFFF00
+      ColorCodeBlock  =   &c5D5D5E00
+      ColorCodeBlockBackground=   &cF8F9F900
+      ColorLink       =   &c0096FF00
+      ColorPlaceholder=   &cC0C0C000
+      ColorScheme     =   0
+      ColorScrollbar  =   &c00000000
+      ColorScrollbarHover=   &c00000000
+      ColorText       =   &c00000000
+      ColorTextItalic =   &c00000000
+      ColorTextSelection=   &c00000000
+      ColorToolbar    =   &c00000000
+      ColorToolbarHover=   &c0096FF00
+      ColorVariablesPopupBackground=   &c00000000
+      ColorVariablesPopupBackgroundSelected=   &c31334300
+      ColorVariablesPopupScrollbarBackground=   &c00000000
+      ColorVariablesPopupScrollbarThumb=   &c00000000
+      ColorVariablesPopupScrollbarThumbHover=   &c00000000
+      ColorVariablesPopupText=   &c00000000
+      ColorVariablesPopupTextHover=   &c00000000
+      ColorVariablesText=   &c00000000
+      Composited      =   False
+      DebugHTML       =   ""
+      Document        =   ""
+      DocumentTitle   =   ""
+      EditMode        =   True
       Enabled         =   True
-      FontName        =   "System"
-      FontSize        =   0.0
-      FontUnit        =   0
-      Format          =   ""
-      HasBorder       =   True
-      HasHorizontalScrollbar=   False
-      HasVerticalScrollbar=   True
-      Height          =   91
-      HideSelection   =   True
+      EnableRightClick=   False
+      FontSize        =   14
+      HasBackgroundColor=   False
+      Height          =   400
       Index           =   -2147483648
-      Italic          =   False
-      Left            =   20
-      LineHeight      =   0.0
-      LineSpacing     =   1.0
+      InitialParent   =   ""
+      KeyboardBindStyles=   True
+      Left            =   0
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   True
-      MaximumCharactersAllowed=   0
-      Multiline       =   True
-      ReadOnly        =   False
+      PlaceHolder     =   "Start typing to create a new document. Select existing text to display a hovering toolbar. Use keyboard shortcuts to style the text or heading styles..."
+      PreferenceName  =   ""
+      QuoteTextBold   =   False
+      QuoteTextItalic =   False
       Scope           =   0
-      TabIndex        =   3
+      TabIndex        =   0
+      TableLabelBackground=   "Background"
+      TableLabelBorder=   "Border"
+      TableLabelCancel=   "Cancel"
+      TableLabelCellProperties=   "Cell properties"
+      TableLabelCellTextAlignment=   "Cell alignment"
+      TableLabelColor =   "Color"
+      TableLabelDeleteColumn=   "Delete column"
+      TableLabelDeleteRow=   "Delete row"
+      TableLabelDimensions=   "Dimensions"
+      TableLabelDimensionsAndAlignments=   "Dimensions and alignment"
+      TableLabelHeight=   "Height"
+      TableLabelInsertAfter=   "Insert after"
+      TableLabelInsertBefore=   "Insert before"
+      TableLabelInsertColumnLeft=   "Insert column left"
+      TableLabelInsertColumnRight=   "Insert column right"
+      TableLabelInsertRowAbove=   "Insert row above"
+      TableLabelInsertRowBelow=   "Insert row below"
+      TableLabelPadding=   "Padding"
+      TableLabelSave  =   "Save"
+      TableLabelWidth =   "Width"
+      TableTooltipAlignCellTextToBottom=   "Align cell text to the bottom"
+      TableTooltipAlignCellTextToMiddle=   "Align cell text to the middle"
+      TableTooltipAlignCellTextToTop=   "Align cell text to top"
+      TableTooltipAlignTableCenter=   "Center table"
+      TableTooltipAlignTableLeft=   "Align table to left"
+      TableTooltipAlignTableRight=   "Align table right"
+      TableTooltipCellProperties=   "Delete table"
+      TableTooltipCellTextAlignCenter=   "Center"
+      TableTooltipCellTextAlignJustify=   "Justify"
+      TableTooltipCellTextAlignLeft=   "Cell text align left"
+      TableTooltipCellTextAlignRight=   "Right"
+      TableTooltipColumn=   "Column"
+      TableTooltipCopyTable=   "Copy table"
+      TableTooltipDelete=   "Delete table"
+      TableTooltipInsertParagraphOutside=   "Insert paragraph outside table"
+      TableTooltipMergeCells=   "Merge cells"
+      TableTooltipProperties=   "Table properties"
+      TableTooltipRow =   "Row"
+      TableTooltipSplitCell=   "Split cell"
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   ""
-      TextAlignment   =   0
-      TextColor       =   &c000000
+      Theme           =   0
+      Toolbar         =   True
+      ToolbarAlignment=   ""
+      ToolbarBorder   =   False
       Tooltip         =   ""
-      Top             =   52
+      Top             =   0
       Transparent     =   False
-      Underline       =   False
-      UnicodeMode     =   1
-      ValidationMask  =   ""
+      VariablesTextBold=   False
+      VariablesTextItalic=   False
       Visible         =   True
-      Width           =   466
-   End
-   Begin DesktopButton bntSaveAPIKey
-      AllowAutoDeactivate=   True
-      Bold            =   False
-      Cancel          =   False
-      Caption         =   "OK"
-      Default         =   True
-      Enabled         =   True
-      FontName        =   "System"
-      FontSize        =   0.0
-      FontUnit        =   0
-      Height          =   20
-      Index           =   -2147483648
-      Italic          =   False
-      Left            =   406
-      LockBottom      =   True
-      LockedInPosition=   False
-      LockLeft        =   False
-      LockRight       =   True
-      LockTop         =   False
-      MacButtonStyle  =   0
-      Scope           =   2
-      TabIndex        =   2
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Tooltip         =   ""
-      Top             =   155
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   80
+      Width           =   600
    End
 End
 #tag EndDesktopWindow
 
 #tag WindowCode
-	#tag Method, Flags = &h21
-		Private Sub CreateAPIKeyFile()
-		  var fileData as new JSONItem
-		  fileData.Value("OpenAIKey") = app.OpenAIKey
-		  mFolderItem.CreateSettingsFileInApplicationFolder("RTEdit",fileData)
-		End Sub
-	#tag EndMethod
-
-
 #tag EndWindowCode
 
-#tag Events bntSaveAPIKey
+#tag Events RTEdit1
 	#tag Event
-		Sub Pressed()
-		  app.OpenAIKey = textOpenAIKey.Text.Trim
-		  CreateAPIKeyFile // Save the API key to a file, so demo doesn't trigger a key request each time
-		  self.close
+		Sub EditorReady()
+		  // Insert your document data in the EditorReady event.
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub Opening()
+		  // Insert any additional settings / modifications, into the Opening event
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag ViewBehavior
-	#tag ViewProperty
-		Name="HasTitleBar"
-		Visible=true
-		Group="Frame"
-		InitialValue="True"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Name"
 		Visible=true
@@ -297,6 +309,14 @@ End
 		Visible=true
 		Group="Frame"
 		InitialValue="False"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="HasTitleBar"
+		Visible=true
+		Group="Frame"
+		InitialValue="True"
 		Type="Boolean"
 		EditorType=""
 	#tag EndViewProperty

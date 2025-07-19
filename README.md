@@ -5,8 +5,7 @@ A standalone class that provides a highly flexible rich text editing experience 
 REditor.Document = &quot;&lt;b&gt;Bold Text Here&lt;/b&gt;&quot;
 REditor.Initialize
 </pre>
-<p>RTEdit introduction & showcase video https://www.youtube.com/watch?v=j4tDSoc2MWk<br>
-RTEdit as a ChatBot container https://www.youtube.com/watch?v=6AjP1rfs3p8</p>
+<p>Introduction & showcase video https://www.youtube.com/watch?v=j4tDSoc2MWk</p>
 <p>Below is a list of its main properties, methods, and events.</p>
 <h2></h2><h2>Properties</h2><h3>Formatting &amp; Toolbar buttons</h3><pre data-language="plain">
 AllowAlignment
@@ -24,73 +23,19 @@ AllowQuote
 AllowStrikeThrough
 AllowSubscript
 AllowSuperscript
-AllowTables
 AllowTextBackgroundColor
 AllowTextColor
 AllowTextDirection
 AllowTextDragDrop
 AllowUnderline
-AllowVariables
-BlockQuoteIndentation
-TableLabelBackground
-TableLabelBorder
-TableLabelCancel 
-TableLabelCellProperties
-TableLabelCellTextAlignment
-TableLabelColor
-TableLabelDeleteColumn
-TableLabelDeleteRow
-TableLabelDimensions
-TableLabelDimensionsAndAlignments
-TableLabelHeight
-TableLabelInsertAfter
-TableLabelInsertBefore
-TableLabelInsertColumnLeft
-TableLabelInsertColumnRight
-TableLabelInsertRowAbove
-TableLabelInsertRowBelow
-TableLabelPadding
-TableLabelSave
-TableLabelWidth
-TableTooltipAlignCellTextToBottom
-TableTooltipAlignCellTextToMiddle
-TableTooltipAlignCellTextToTop
-TableTooltipAlignTableCenter
-TableTooltipAlignTableLeft
-TableTooltipAlignTableRight
-TableTooltipCellProperties
-TableTooltipCellTextAlignCenter
-TableTooltipCellTextAlignJustify
-TableTooltipCellTextAlignLeft
-TableTooltipCellTextAlignRight
-TableTooltipColumn
-TableTooltipCopyTable
-TableTooltipDelete
-TableTooltipInsertParagraphOutside
-TableTooltipMergeCells
-TableTooltipProperties
-TableTooltipRow
-TableTooltipSplitCell
-Theme
-Toolbar
-ToolbarAlignment
-ToolbarBorder
-VariablesAt()
-VariablesBraces()
-VariablesDollars()
-VariablesHash()
-VariablesPercent()
-VariablesTextBold
-VariablesTextItalic
 </pre><p></p><h3>Colors</h3><pre data-language="plain">
 ColorBackground
 ColorBackgroundSelection
-ColorBlockQuote
-ColorBlockQuoteLine
-ColorCodeBlock
-ColorCodeBlockBackground
 Colorlink
+ColorMention
+ColorMentionBackground
 ColorPlaceholder
+ColorQuote
 ColorScrollbar
 ColorScrollbarHover
 ColorText
@@ -98,15 +43,6 @@ ColorTextItalic
 ColorTextSelection
 ColorToolbar
 ColorToolbarHover
-ColorVariables
-ColorVariablesPopupBackground
-ColorVariablesPopupBackgroundSelected
-ColorVariablesPopupScrollbarBackground
-ColorVariablesPopupScrollbarThumb
-ColorVariablesPopupScrollbarThumbHover
-ColorVariablesPopupText
-ColorVariablesPopupTextHover
-ColorVariablesText  
 </pre><h3>Other</h3><pre data-language="plain">
 Document
 EnableRightClick
@@ -124,17 +60,15 @@ AutoInitialize
 ExportDocumentAsJSON
 getDocumentHTML
 getDocumentLength
-getDocumentVariables
+getDocumentMentions
 getDocumentText
 ImportDocumentFromJSON
 NewDocument
 RemoveFocus
 SaveColorsAsScheme
 SelectAll
-TableDelete
-TableInsert
 </pre><h3>Other</h3><pre data-language="plain">
-AddVariable
+AddMention
 ClipboardPaste
 Close
 CopySelectionToClipboard
@@ -142,7 +76,7 @@ PrintDocument
 RetrieveValue
 ScrollToTop
 StoreValue
-UpdateVariableValue
+UpdateMentionValue
 </pre><p></p><h2>Events</h2><p><strong>Some customized events include</strong></p><pre data-language="plain">
 ClipboardPaste
 ContextualMenuItemSelected
@@ -161,10 +95,7 @@ Initialize
 This control is free to use, but requires proper acknowledgment in any derived work or application. You must mention the original author and provide a link to this repository in your documentation or credits.
 A part of this control is based on Quill 2.0+  https://github.com/slab/quill/blob/main/LICENSE
 <p></p>
-<p>For demonstration purposes in the ChatBot demo, we useGarry Pettet's AIKit which is maintained here https://github.com/gkjpettet/AIKit</p>
-<p></p>
 <p>Terms</p>
-<p></p>
 Free to Use: You are allowed to use this control in your projects without charge.
 Acknowledgment Required: You must provide proper attribution in any work that uses this control. 
 No Decryption or Modification: You are not allowed to decrypt, reverse-engineer, or modify the control in any way.
