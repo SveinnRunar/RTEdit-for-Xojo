@@ -521,7 +521,7 @@ End
 	#tag Constant, Name = K_TABLES, Type = String, Dynamic = False, Default = \"A demo showcasing use of Tables with RTEdit.\n\nRight click the control inside and outside of a table to see how you can create custom contextual menus depending on wether a table is selected or not. You can also create tables up to 10x10 rows and columns\x2C using source code. \n\nUse the TableLabel... and TabelTooltip... properties to set custom names for tooltips and labels in the table and cell properties modals.\n\nBrowse columns and cells using the arrow keys.\n", Scope = Private
 	#tag EndConstant
 
-	#tag Constant, Name = K_VARIABLES, Type = String, Dynamic = False, Default = \"RTEdit\'s Variables module is based on Quill-Mentions module\x2C but with so much functionality added\x2C that we renamed it to \'Variables\' to be more descriptive. \n\nThe module is enabled with RTEdit.AllowVariables\x2C which can be set by code or within the IDE. Supported characters that can be used to insert variables are : # $ % { [\n", Scope = Private
+	#tag Constant, Name = K_VARIABLES, Type = String, Dynamic = False, Default = \"RTEdit\'s Variables module is based on Quill-Mentions module\x2C but with so much functionality added\x2C that we renamed it to \'Variables\' to be more descriptive. \n\nThe module is enabled with RTEdit.AllowVariables\x2C which can be set by code or within the IDE. Supported characters that can be used to insert variables are : @ # $ % { [\n", Scope = Private
 	#tag EndConstant
 
 
