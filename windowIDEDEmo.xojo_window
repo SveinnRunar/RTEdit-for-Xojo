@@ -74,6 +74,7 @@ Begin DesktopWindow windowIDEDEmo
       ColorTextItalic =   &c00000000
       ColorTextSelection=   &c00000000
       ColorToolbar    =   &c00000000
+      ColorToolbarDisabled=   &cA9A9A900
       ColorToolbarHover=   &c00000000
       ColorVariablesPopupBackground=   &c00000000
       ColorVariablesPopupBackgroundSelected=   &c31334300

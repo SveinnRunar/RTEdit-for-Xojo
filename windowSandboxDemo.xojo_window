@@ -316,6 +316,7 @@ Begin DesktopWindow windowSandboxDemo
       Width           =   995
    End
    Begin DesktopColorPicker colorPick
+      Enabled         =   True
       HasAlpha        =   True
       Index           =   -2147483648
       LockedInPosition=   False

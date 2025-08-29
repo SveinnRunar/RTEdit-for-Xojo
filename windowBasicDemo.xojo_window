@@ -52,7 +52,7 @@ Begin DesktopWindow windowBasicDemo
       AllowTextDirection=   False
       AllowTextDragDrop=   True
       AllowUnderline  =   True
-      AllowVariables  =   False
+      AllowVariables  =   True
       AllowVideo      =   False
       AutoFormatLinks =   True
       AutoInitialize  =   True
@@ -74,6 +74,7 @@ Begin DesktopWindow windowBasicDemo
       ColorTextItalic =   &c00000000
       ColorTextSelection=   &c00000000
       ColorToolbar    =   &c00000000
+      ColorToolbarDisabled=   &cA9A9A900
       ColorToolbarHover=   &c0096FF00
       ColorVariablesPopupBackground=   &c00000000
       ColorVariablesPopupBackgroundSelected=   &c31334300
@@ -176,6 +177,7 @@ End
 	#tag Event
 		Sub Opening()
 		  // Insert any additional settings / modifications, into the Opening event
+		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents

@@ -74,6 +74,7 @@ Begin DesktopWindow windowTableDemo
       ColorTextItalic =   &c00000000
       ColorTextSelection=   &c00000000
       ColorToolbar    =   &c00000000
+      ColorToolbarDisabled=   &cA9A9A900
       ColorToolbarHover=   &cFF2F9200
       ColorVariablesPopupBackground=   &c00000000
       ColorVariablesPopupBackgroundSelected=   &c31334300
